@@ -40,4 +40,3 @@ def g_db_del( obj ):
         db.session.delete ( obj )
 
 
-def 
