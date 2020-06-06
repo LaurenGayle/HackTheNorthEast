@@ -12,12 +12,6 @@ from flask_sqlalchemy import SQLAlchemy as db
 from sqlalchemy.engine import create_engine
 from sqlalchemy.orm.session import sessionmaker
 
-from tinydb import TinyDB, Query
-
-
-db = TinyDB('db.json')
-log.basicConfig(filename='example.log', level=log.DEBUG)
-
 
 def getUser(username):
 
