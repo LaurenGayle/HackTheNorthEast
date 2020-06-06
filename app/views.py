@@ -156,4 +156,9 @@ def Data():
     slider3data = request.form.get("output2")
     slider4data = request.form.get("output4")
     slider5data = request.form.get("output5")
-    print(slider1data)
+    slider6data = request.form.get("output6")
+    
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+    
+    return (slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+

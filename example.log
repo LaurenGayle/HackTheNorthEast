@@ -43782,3 +43782,1552 @@ Traceback (most recent call last):
     raise TypeError(
 TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:38:35] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 304 -
+INFO:root:Sliders 112
+INFO:root:Sliders 228
+INFO:root:Sliders 343
+INFO:root:Sliders 485
+INFO:root:Sliders 592
+INFO:root:Sliders 6100
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:52:53] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 304 -
+INFO:root:Sliders 123
+INFO:root:Sliders 228
+INFO:root:Sliders 343
+INFO:root:Sliders 485
+INFO:root:Sliders 592
+INFO:root:Sliders 6100
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:53:25] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:54:44] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:35] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 13:57:47] "GET /static/assets/css/pixel.css.map HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:05:53] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:32] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:33] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:33] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 304 -
+INFO:root:Sliders 118
+INFO:root:Sliders 228
+INFO:root:Sliders 30
+INFO:root:Sliders 40
+INFO:root:Sliders 525
+INFO:root:Sliders 618
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:09:42] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+18
+INFO:root:Sliders 2
+28
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+25
+INFO:root:Sliders 6
+18
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:05] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:06] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:06] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:06] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:07] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 304 -
+INFO:root:Sliders 1
+18
+INFO:root:Sliders 2
+28
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+25
+INFO:root:Sliders 6
+18
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:11:11] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:35] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 304 -
+INFO:root:Sliders 1
+18
+INFO:root:Sliders 2
+28
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+25
+INFO:root:Sliders 6
+18
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 163, in Data
+    return int(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+TypeError: int() takes at most 2 arguments (6 given)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:14:38] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+18
+INFO:root:Sliders 2
+28
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+25
+INFO:root:Sliders 6
+18
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 163, in Data
+    return int(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+TypeError: int() takes at most 2 arguments (6 given)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:15:35] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+18
+INFO:root:Sliders 2
+28
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+25
+INFO:root:Sliders 6
+18
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2089, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response tuple. The tuple must have the form (body, status, headers), (body, status), or (body, headers).
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:01] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/img/favicon/apple-touch-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:03] "GET /static/assets/img/favicon/favicon-16x16.png HTTP/1.1" 200 -INFO:root:Sliders 1
+18
+INFO:root:Sliders 2
+28
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+25
+INFO:root:Sliders 6
+18
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2089, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response tuple. The tuple must have the form (body, status, headers), (body, status), or (body, headers).
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:16:23] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:01] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:02] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:02] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 304 -
+INFO:root:Sliders 1
+18
+INFO:root:Sliders 2
+28
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+25
+INFO:root:Sliders 6
+18
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 163, in Data
+    return tuple[slider1data,slider2data,slider3data,slider4data,slider5data,slider6data]
+TypeError: 'type' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:07] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+18
+INFO:root:Sliders 2
+28
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+25
+INFO:root:Sliders 6
+18
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 163, in Data
+    return tuple (slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+TypeError: tuple expected at most 1 argument, got 6
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:17:53] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:20:58] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 304 -
+INFO:root:Sliders 1
+18
+INFO:root:Sliders 2
+28
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+25
+INFO:root:Sliders 6
+18
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 163, in Data
+    return tuple (int(slider1data),int(slider2data),int(slider3data),int(slider4data),int(slider5data),int(slider6data))
+TypeError: tuple expected at most 1 argument, got 6
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:21:01] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:01] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:02] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:02] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 304 -
+INFO:root:Sliders 1
+18
+INFO:root:Sliders 2
+28
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+25
+INFO:root:Sliders 6
+18
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a int.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:06] "POST /process HTTP/1.1" 500 -
+INFO:root:Sliders 1
+18
+INFO:root:Sliders 2
+28
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+25
+INFO:root:Sliders 6
+18
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a int.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:22:09] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+18
+INFO:root:Sliders 2
+28
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+25
+INFO:root:Sliders 6
+18
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2089, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response tuple. The tuple must have the form (body, status, headers), (body, status), or (body, headers).
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:27:08] "POST /process HTTP/1.1" 500 -
+INFO:root:Sliders 1
+34
+INFO:root:Sliders 2
+43
+INFO:root:Sliders 3
+59
+INFO:root:Sliders 4
+26
+INFO:root:Sliders 5
+97
+INFO:root:Sliders 6
+35
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2089, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response tuple. The tuple must have the form (body, status, headers), (body, status), or (body, headers).
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:33:35] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:48:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:48:23] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:48:23] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:48:24] "GET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:48:24] "GET /static/assets/img/favicon/apple-touch-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:48:24] "GET /static/assets/img/favicon/favicon-16x16.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:48:30] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 14:48:53] "GET /static/assets/css/pixel.css.map HTTP/1.1" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:06] "GET /static/assets/img/favicon/favicon-16x16.png HTTP/1.1" 200 -
+INFO:root:Sliders 1
+98
+INFO:root:Sliders 2
+15
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+0
+INFO:root:Sliders 6
+0
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 43, in getUserIntput
+    db.session.add(models.User.id(),models.User.happy(slider1data),models.User.calm(slider2data),models.User.optimistic(slider3data),models.User.anxious(slider4data),models.User.sad(slider4data),models.User.stressed(slider5data),models.User.anger(slider6data))
+TypeError: 'InstrumentedAttribute' object is not callable
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:08:10] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:43] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:44] "GET /static/assets/img/favicon/apple-touch-icon.png HTTP/1.1" 200 -
+INFO:root:Sliders 1
+98
+INFO:root:Sliders 2
+15
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+0
+INFO:root:Sliders 6
+0
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 43, in getUserIntput
+TypeError: 'InstrumentedAttribute' object is not callable
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:53] "POST /process HTTP/1.1" 500 -
+INFO:root:Sliders 1
+98
+INFO:root:Sliders 2
+15
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+0
+INFO:root:Sliders 6
+0
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 43, in getUserIntput
+TypeError: 'InstrumentedAttribute' object is not callable
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:21:53] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+98
+INFO:root:Sliders 2
+15
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+0
+INFO:root:Sliders 6
+0
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 45, in getUserIntput
+    data =database.Database(database.Database.id(),database.Database.happy(slider1data),database.Database.calm(slider2data),database.Database.optimistic(slider3data),database.Database.anxious(slider4data),database.Database.sad(slider4data),database.Database.stressed(slider5data),database.Database.anger(slider6data))
+TypeError: 'InstrumentedAttribute' object is not callable
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:27:09] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+98
+INFO:root:Sliders 2
+15
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+0
+INFO:root:Sliders 6
+0
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 45, in getUserIntput
+    data = database.Database(id =database.Database.id(),happy =database.Database.happy(slider1data),calm =database.Database.calm(slider2data),optimistic=database.Database.optimistic(slider3data),anxious=database.Database.anxious(slider4data),sad=database.Database.sad(slider4data),stressed=database.Database.stressed(slider5data),anger=database.Database.anger(slider6data))
+TypeError: 'InstrumentedAttribute' object is not callable
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:30:01] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:22] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 200 -
+INFO:root:Sliders 1
+98
+INFO:root:Sliders 2
+15
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+0
+INFO:root:Sliders 6
+0
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 46, in getUserIntput
+    session.add(data)
+AttributeError: module 'sqlalchemy.orm.session' has no attribute 'add'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:34:26] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:27] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:28] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 304 -
+INFO:root:Sliders 1
+98
+INFO:root:Sliders 2
+15
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+0
+INFO:root:Sliders 6
+0
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 46, in getUserIntput
+    session.add_all(data)
+AttributeError: module 'sqlalchemy.orm.session' has no attribute 'add_all'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:36:34] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+98
+INFO:root:Sliders 2
+15
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+0
+INFO:root:Sliders 6
+0
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 46, in getUserIntput
+    session.add(data)
+AttributeError: module 'sqlalchemy.orm.session' has no attribute 'add'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:37:25] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+98
+INFO:root:Sliders 2
+15
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+0
+INFO:root:Sliders 6
+0
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2089, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response tuple. The tuple must have the form (body, status, headers), (body, status), or (body, headers).
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:39:15] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:42:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:42:06] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:42:07] "GET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:42:07] "GET /static/assets/img/favicon/apple-touch-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:42:13] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:42:14] "GET /static/assets/img/favicon/apple-touch-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:42:14] "GET /static/assets/img/favicon/favicon-16x16.png HTTP/1.1" 200 -
+INFO:root:Sliders 1
+23
+INFO:root:Sliders 2
+31
+INFO:root:Sliders 3
+23
+INFO:root:Sliders 4
+63
+INFO:root:Sliders 5
+18
+INFO:root:Sliders 6
+16
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 48, in getUserIntput
+    querydata()
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 54, in querydata
+    log.warn("database data"+ angerlog)
+TypeError: can only concatenate str (not "Query") to str
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:42:25] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+23
+INFO:root:Sliders 2
+31
+INFO:root:Sliders 3
+23
+INFO:root:Sliders 4
+63
+INFO:root:Sliders 5
+18
+INFO:root:Sliders 6
+16
+WARNING:root:database dataSELECT emotions.id AS emotions_id, emotions.calm AS emotions_calm 
+FROM emotions
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2089, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response tuple. The tuple must have the form (body, status, headers), (body, status), or (body, headers).
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:42:48] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+23
+INFO:root:Sliders 2
+31
+INFO:root:Sliders 3
+23
+INFO:root:Sliders 4
+63
+INFO:root:Sliders 5
+18
+INFO:root:Sliders 6
+16
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 48, in getUserIntput
+    querydata()
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 54, in querydata
+    log.warn("database data"+ str(angerlog.id))
+AttributeError: 'Query' object has no attribute 'id'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:43:47] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+23
+INFO:root:Sliders 2
+31
+INFO:root:Sliders 3
+23
+INFO:root:Sliders 4
+63
+INFO:root:Sliders 5
+18
+INFO:root:Sliders 6
+16
+WARNING:root:database dataDatabase.id
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2089, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response tuple. The tuple must have the form (body, status, headers), (body, status), or (body, headers).
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:44:21] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+23
+INFO:root:Sliders 2
+31
+INFO:root:Sliders 3
+23
+INFO:root:Sliders 4
+63
+INFO:root:Sliders 5
+18
+INFO:root:Sliders 6
+16
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 48, in getUserIntput
+    querydata()
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 53, in querydata
+    for id in angerlog:
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3480, in __iter__
+    self.session._autoflush()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1617, in _autoflush
+    self.flush()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2523, in flush
+    self._flush(objects)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2664, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2624, in _flush
+    flush_context.execute()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 586, in execute
+    persistence.save_obj(
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 205, in save_obj
+    for (
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 373, in _organize_states_for_save
+    for state, dict_, mapper, connection in _connections_for_states(
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1602, in _connections_for_states
+    connection = uowtransaction.transaction.connection(base_mapper)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 313, in connection
+    bind = self.session.get_bind(bindkey, **kwargs)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1575, in get_bind
+    raise sa_exc.UnboundExecutionError(
+sqlalchemy.exc.UnboundExecutionError: Could not locate a bind configured on mapper mapped class Database->emotions or this Session
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:45:38] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+23
+INFO:root:Sliders 2
+31
+INFO:root:Sliders 3
+23
+INFO:root:Sliders 4
+63
+INFO:root:Sliders 5
+18
+INFO:root:Sliders 6
+16
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 50, in getUserIntput
+    querydata()
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 55, in querydata
+    for id in angerlog:
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3480, in __iter__
+    self.session._autoflush()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1617, in _autoflush
+    self.flush()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2523, in flush
+    self._flush(objects)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2664, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2624, in _flush
+    flush_context.execute()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 586, in execute
+    persistence.save_obj(
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 205, in save_obj
+    for (
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 373, in _organize_states_for_save
+    for state, dict_, mapper, connection in _connections_for_states(
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1602, in _connections_for_states
+    connection = uowtransaction.transaction.connection(base_mapper)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 314, in connection
+    return self._connection_for_bind(bind, execution_options)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 421, in _connection_for_bind
+    conn = self._parent._connection_for_bind(bind, execution_options)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+AttributeError: 'SQLAlchemy' object has no attribute '_contextual_connect'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:49:54] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+23
+INFO:root:Sliders 2
+31
+INFO:root:Sliders 3
+23
+INFO:root:Sliders 4
+63
+INFO:root:Sliders 5
+18
+INFO:root:Sliders 6
+16
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 50, in getUserIntput
+    querydata()
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 55, in querydata
+    for id in angerlog:
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3480, in __iter__
+    self.session._autoflush()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1617, in _autoflush
+    self.flush()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2523, in flush
+    self._flush(objects)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2664, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2624, in _flush
+    flush_context.execute()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 586, in execute
+    persistence.save_obj(
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 205, in save_obj
+    for (
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 373, in _organize_states_for_save
+    for state, dict_, mapper, connection in _connections_for_states(
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1602, in _connections_for_states
+    connection = uowtransaction.transaction.connection(base_mapper)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 314, in connection
+    return self._connection_for_bind(bind, execution_options)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 421, in _connection_for_bind
+    conn = self._parent._connection_for_bind(bind, execution_options)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+AttributeError: 'property' object has no attribute '_contextual_connect'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:51:56] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+23
+INFO:root:Sliders 2
+31
+INFO:root:Sliders 3
+23
+INFO:root:Sliders 4
+63
+INFO:root:Sliders 5
+18
+INFO:root:Sliders 6
+16
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 49, in getUserIntput
+    db.session.add(data)
+AttributeError: type object 'SQLAlchemy' has no attribute 'session'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 15:55:29] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+23
+INFO:root:Sliders 2
+31
+INFO:root:Sliders 3
+23
+INFO:root:Sliders 4
+63
+INFO:root:Sliders 5
+18
+INFO:root:Sliders 6
+16
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 44, in getUserIntput
+    data = database.Database(happy =slider1data,calm= slider2data,optimistic= slider3data,anxious=slider4data,sad=slider5data,anger=slider6data)
+NameError: name 'database' is not defined
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 16:02:35] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+23
+INFO:root:Sliders 2
+31
+INFO:root:Sliders 3
+23
+INFO:root:Sliders 4
+63
+INFO:root:Sliders 5
+18
+INFO:root:Sliders 6
+16
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 44, in getUserIntput
+    data = database.Database(happy =slider1data,calm= slider2data,optimistic= slider3data,anxious=slider4data,sad=slider5data,anger=slider6data)
+NameError: name 'database' is not defined
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 16:04:03] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+23
+INFO:root:Sliders 2
+31
+INFO:root:Sliders 3
+23
+INFO:root:Sliders 4
+63
+INFO:root:Sliders 5
+18
+INFO:root:Sliders 6
+16
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 45, in getUserIntput
+    db.session.add(data)
+AttributeError: type object 'SQLAlchemy' has no attribute 'session'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 16:05:38] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+23
+INFO:root:Sliders 2
+31
+INFO:root:Sliders 3
+23
+INFO:root:Sliders 4
+63
+INFO:root:Sliders 5
+18
+INFO:root:Sliders 6
+16
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 44, in getUserIntput
+    data = db(happy =slider1data,calm= slider2data,optimistic= slider3data,anxious=slider4data,sad=slider5data,anger=slider6data)
+TypeError: __init__() got an unexpected keyword argument 'happy'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 16:06:43] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+23
+INFO:root:Sliders 2
+31
+INFO:root:Sliders 3
+23
+INFO:root:Sliders 4
+63
+INFO:root:Sliders 5
+18
+INFO:root:Sliders 6
+16
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 45, in getUserIntput
+    db.session.add(happy =slider1data,calm= slider2data,optimistic= slider3data,anxious=slider4data,sad=slider5data,anger=slider6data)
+AttributeError: type object 'SQLAlchemy' has no attribute 'session'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 16:08:44] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Sliders 1
+23
+INFO:root:Sliders 2
+31
+INFO:root:Sliders 3
+23
+INFO:root:Sliders 4
+63
+INFO:root:Sliders 5
+18
+INFO:root:Sliders 6
+16
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 161, in Data
+    datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 53, in getUserIntput
+    db.session.add(happy =slider1data,calm= slider2data,optimistic= slider3data,anxious=slider4data,sad=slider5data,anger=slider6data)
+AttributeError: type object 'SQLAlchemy' has no attribute 'session'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 16:13:00] "POST /process HTTP/1.1" 500 -
