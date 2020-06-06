@@ -1,6 +1,7 @@
 """
 Module to read data from database 
 """
+'''
 from app import db
 
 import app.views as views
@@ -58,3 +59,4 @@ def querydata():
     angerlog = db.query(db.id, db.calm)
     for id in angerlog:
         log.warn("database data"+ str(id))
+'''
