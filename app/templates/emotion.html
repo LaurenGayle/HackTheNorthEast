@@ -65,7 +65,7 @@
 
 <div class="section section-lg pb-5">
     <div class="container">
-
+      <h1>Slide each value to match how you feel:</h1>
       <div class="slidecontainer">
         <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
         <p>Happy: <span id="demo"></span></p>
@@ -101,6 +101,9 @@
         <p>Angry: <span id="demo6"></span></p>
       </div> 
 
+      <div>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
 
     </div>
 </div>
@@ -137,38 +140,38 @@ output4.innerHTML = slider4.value;
 output5.innerHTML = slider5.value;
 output6.innerHTML = slider5.value;
 
-slider.oninput = function() {
+var w = slider.oninput = function Happy() {
   output.innerHTML = this.value;
 }
 
-slider1.oninput = function() {
+slider1.oninput = function Calm() {
   output1.innerHTML = this.value;
 }
 
-slider2.oninput = function() {
+slider2.oninput = function Optimistic() {
   output2.innerHTML = this.value;
 }
 
-slider3.oninput = function() {
+slider3.oninput = function Anxious() {
   output3.innerHTML = this.value;
 }
 
-slider4.oninput = function() {
+slider4.oninput = function Sad() {
   output4.innerHTML = this.value;
 }
 
-slider5.oninput = function() {
+slider5.oninput = function Stressed() {
   output5.innerHTML = this.value;
 }
 
-slider6.oninput = function() {
+slider6.oninput = function Angry() {
   output6.innerHTML = this.value;
 }
 
 var ctx = document.getElementById('myPieChart').getContext('2d');
 var myPieChart = new Chart(ctx, {
     // The type of chart we want to create
-    type: 'pie',
+    type: 'bar',
 
     // The data for our dataset
     data: {
@@ -177,7 +180,7 @@ var myPieChart = new Chart(ctx, {
             label: 'Happy',
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
             borderColor: 'rgba(255, 99, 132, 1)', 
-            data: output.innerHTML,
+            data: w,
         }, {
             label: 'Calm',
             backgroundColor:'rgba(54, 162, 235, 0.2)',
@@ -185,28 +188,28 @@ var myPieChart = new Chart(ctx, {
             data: output1.innerHTML, 
         }, {
             label: 'Optimistic',
-            backgroundColor:'rgba(54, 162, 235, 0.2)',
-            borderColor:'rgba(54, 162, 235, 1)',  
+            backgroundColor:'rgba(0, 210, 217, 0.2)',
+            borderColor:'rgba(0, 210, 217, 1)',  
             data: output2.innerHTML, 
         },{
             label: 'Anxious',
-            backgroundColor:'rgba(54, 162, 235, 0.2)',
-            borderColor:'rgba(54, 162, 235, 1)',  
+            backgroundColor:'rgba(255, 234, 0, 0.2)',
+            borderColor:'rgba(255, 234, 0, 1)',  
             data: output3.innerHTML, 
         }, {
             label: 'Sad',
-            backgroundColor:'rgba(54, 162, 235, 0.2)',
-            borderColor:'rgba(54, 162, 235, 1)',  
+            backgroundColor:'rgba(85, 0, 255, 0.2)',
+            borderColor:'rgba(85, 0, 255, 1)',  
             data: output4.innerHTML, 
         },{
             label: 'Stressed',
-            backgroundColor:'rgba(54, 162, 235, 0.2)',
-            borderColor:'rgba(54, 162, 235, 1)',  
+            backgroundColor:'rgba(255, 83, 64, 0.2)',
+            borderColor:'rgba(255, 83, 64, 1)',  
             data: output5.innerHTML, 
         },{
             label: 'Angry',
-            backgroundColor:'rgba(54, 162, 235, 0.2)',
-            borderColor:'rgba(54, 162, 235, 1)',  
+            backgroundColor:'rgba(140, 255, 102, 0.2)',
+            borderColor:'rgba(140, 255, 102, 1)',  
             data: output6.innerHTML, 
         },
       ]
@@ -218,16 +221,23 @@ var myPieChart = new Chart(ctx, {
 });
 
 function updateChart(){
-  chart.data.datasets[0].data = this.value;
-  chart.data.datasets[1].data = this.value;
-  chart.data.datasets[2].data = this.value;
-  chart.data.datasets[3].data = this.value;
-  chart.data.datasets[4].data = this.value;
-  chart.data.datasets[5].data = this.value;
-  chart.data.datasets[6].data = this.value;
+  chart.data.datasets[0].data = w;
+  chart.data.datasets[1].data = Calm();
+  chart.data.datasets[2].data = Optimistic();
+  chart.data.datasets[3].data = Anxious();
+  chart.data.datasets[4].data = Sad();
+  chart.data.datasets[5].data = Stressed();
+  chart.data.datasets[6].data = Angry();
 
   chart.update();
 }
+
+const button = document.querySelector('button');
+
+button.addEventListener('click', event => {
+  button.innerHTML = `Click count: ${event.detail}`;
+});
+
 </script>
 
 {% endblock javascripts %}
