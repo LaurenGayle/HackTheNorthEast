@@ -33,7 +33,3 @@ def getUserLocation(ipaddr):
 def getUserIntput():
     
      return    
- 
-
-
-  

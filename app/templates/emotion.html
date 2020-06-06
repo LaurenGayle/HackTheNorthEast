@@ -54,6 +54,13 @@
         <p>Here is where you log your emotions. Tell us your feelings! </p>
             </div>
         </div>
+        <canvas id="myChart">
+          
+          
+          <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+        </canvas>
+
     </div>
 </section>
 
@@ -115,8 +122,6 @@ var slider4 = document.getElementById("myRange4");
 var slider5 = document.getElementById("myRange5");
 var slider6 = document.getElementById("myRange6");
 
-
-
 var output = document.getElementById("demo");
 var output1 = document.getElementById("demo1");
 var output2 = document.getElementById("demo2");
@@ -160,6 +165,26 @@ slider5.oninput = function() {
 slider6.oninput = function() {
   output6.innerHTML = this.value;
 }
+
+var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'line',
+
+    // The data for our dataset
+    data: {
+        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        datasets: [{
+            label: 'My First dataset',
+            backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(255, 99, 132)',
+            data: [0, 10, 5, 2, 20, 30, 45]
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});
 </script>
 
 {% endblock javascripts %}
