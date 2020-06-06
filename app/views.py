@@ -79,6 +79,7 @@ def register():
 
     return render_template( 'accounts/register.html', form=form, msg=msg )
 
+"""
 # Authenticate user
 @app.route('/login.html', methods=['GET', 'POST'])
 def login():
@@ -112,15 +113,11 @@ def login():
             msg = "Unknown user"
 
     return render_template( 'accounts/login.html', form=form, msg=msg )
-
+"""
 # App main route + generic routing
 @app.route('/', defaults={'path': 'index.html'})
 @app.route('/<path>')
 def index(path):
-
-    if not current_user.is_authenticated:
-        return redirect(url_for('login'))
-
     try:
 
         if not path.endswith( '.html' ):
