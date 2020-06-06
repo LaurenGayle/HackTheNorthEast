@@ -6,7 +6,6 @@ from app  import db
 import app.views as views
 import app.models as models
 from app.models import User
-from geoip import geolite2
 import logging as log
 from wtforms.fields.simple import BooleanField
 
