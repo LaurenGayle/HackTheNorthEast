@@ -1,7 +1,7 @@
 """
 Module to read data from database 
 """ 
-
+'''
 from app  import db
 
 import app.views as views
@@ -32,4 +32,4 @@ def getUserLocation(ipaddr):
 
 def getUserIntput():
     
-     return    
+     return    '''

@@ -50,12 +50,11 @@
         <div class="row justify-content-center text-center pt-6 pb-3" role="banner">
             <div class="col-12 col-md-8">
                 <h1 class="display-1 font-weight-light mb-3">Emotion Tracker</h1>
-        
-        <p>Here is where you log your emotions. Tell us your feelings! </p>
+                <p>Here is where you log your emotions. Tell us your feelings! </p>
             </div>
         </div>
-        <canvas id="myChart">
-          
+    </div>
+        <canvas id="myPieChart" width="100" height="100">
           
           <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
@@ -79,7 +78,7 @@
       
       <div class="slidecontainer">
         <input type="range" min="0" max="100" value="0" class="slider" id="myRange2">
-        <p>Opptomistic: <span id="demo2"></span></p>
+        <p>Optimistic: <span id="demo2"></span></p>
       </div> 
 
       <div class="slidecontainer">
@@ -166,25 +165,69 @@ slider6.oninput = function() {
   output6.innerHTML = this.value;
 }
 
-var ctx = document.getElementById('myChart').getContext('2d');
-var chart = new Chart(ctx, {
+var ctx = document.getElementById('myPieChart').getContext('2d');
+var myPieChart = new Chart(ctx, {
     // The type of chart we want to create
-    type: 'line',
+    type: 'pie',
 
     // The data for our dataset
     data: {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        labels: ['Happy', 'Calm', 'Optimistic', 'Anxious', 'Sad', 'Stressed', 'Angry'],
         datasets: [{
-            label: 'My First dataset',
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
-            data: [0, 10, 5, 2, 20, 30, 45]
-        }]
+            label: 'Happy',
+            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+            borderColor: 'rgba(255, 99, 132, 1)', 
+            data: output.innerHTML,
+        }, {
+            label: 'Calm',
+            backgroundColor:'rgba(54, 162, 235, 0.2)',
+            borderColor:'rgba(54, 162, 235, 1)',  
+            data: output1.innerHTML, 
+        }, {
+            label: 'Optimistic',
+            backgroundColor:'rgba(54, 162, 235, 0.2)',
+            borderColor:'rgba(54, 162, 235, 1)',  
+            data: output2.innerHTML, 
+        },{
+            label: 'Anxious',
+            backgroundColor:'rgba(54, 162, 235, 0.2)',
+            borderColor:'rgba(54, 162, 235, 1)',  
+            data: output3.innerHTML, 
+        }, {
+            label: 'Sad',
+            backgroundColor:'rgba(54, 162, 235, 0.2)',
+            borderColor:'rgba(54, 162, 235, 1)',  
+            data: output4.innerHTML, 
+        },{
+            label: 'Stressed',
+            backgroundColor:'rgba(54, 162, 235, 0.2)',
+            borderColor:'rgba(54, 162, 235, 1)',  
+            data: output5.innerHTML, 
+        },{
+            label: 'Angry',
+            backgroundColor:'rgba(54, 162, 235, 0.2)',
+            borderColor:'rgba(54, 162, 235, 1)',  
+            data: output6.innerHTML, 
+        },
+      ]
+
     },
 
     // Configuration options go here
     options: {}
 });
+
+function updateChart(){
+  chart.data.datasets[0].data = this.value;
+  chart.data.datasets[1].data = this.value;
+  chart.data.datasets[2].data = this.value;
+  chart.data.datasets[3].data = this.value;
+  chart.data.datasets[4].data = this.value;
+  chart.data.datasets[5].data = this.value;
+  chart.data.datasets[6].data = this.value;
+
+  chart.update();
+}
 </script>
 
 {% endblock javascripts %}
