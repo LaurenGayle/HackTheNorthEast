@@ -18,7 +18,7 @@ from app        import app, lm, db, bc
 from app.models import User
 from app.forms  import LoginForm, RegisterForm
 
-import app.readDatabase as datahandler
+import app.UserDatautil as datahandler
 
 
 # provide login manager with load_user callback
@@ -56,7 +56,8 @@ def register():
         # filter User out of database through username
         user = User.query.filter_by(user=username).first()
 
-        
+        getUsersStats(user
+                      )
         # filter User out of database through username
         user_by_email = User.query.filter_by(email=email).first()
 
@@ -143,4 +144,4 @@ def sitemap():
 
 def getUsersStats(username):
     datahandler.getUser(username)
-                
+    
