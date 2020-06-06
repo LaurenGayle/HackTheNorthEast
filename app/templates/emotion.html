@@ -29,14 +29,14 @@
     appearance: none;
     width: 25px;
     height: 25px;
-    background: #4CAF50;
+    background: rgb(38, 28, 131);
     cursor: pointer;
   }
   
   .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: #4CAF50;
+    background: rgb(38, 28, 131);
     cursor: pointer;
   }
   </style>{% endblock stylesheets %}
@@ -116,6 +116,12 @@
 {% block javascripts %}
 
 <script>
+var calm = '{{ calm }}';
+var Optimistic = '{{ Optimistic }}';
+var Anxious = '{{ Anxious }}'
+var Sad = '{{ Sad }}'
+var Stressed ='{{ Stressed }}'
+var Angry = '{{ Angry }}'
 
 var slider = document.getElementById("myRange");
 var slider1 = document.getElementById("myRange1");
@@ -141,7 +147,7 @@ output4.innerHTML = slider4.value;
 output5.innerHTML = slider5.value;
 output6.innerHTML = slider6.value;
 
-var w = slider.oninput = function Happy() {
+slider.oninput = function Happy() {
   output.innerHTML = this.value;
   
   
@@ -165,7 +171,6 @@ slider3.oninput = function Anxious() {
 
 slider4.oninput = function Sad() {
   output4.innerHTML = this.value;
-  
 }
 
 
@@ -200,7 +205,7 @@ var chart = new Chart(ctx, {
             label: 'Happy',
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
             borderColor: 'rgba(255, 99, 132, 1)', 
-            data: w,
+            data: output.innerHTML,
         }, {
             label: 'Calm',
             backgroundColor:'rgba(54, 162, 235, 0.2)',
@@ -214,13 +219,7 @@ var chart = new Chart(ctx, {
         },{
             label: 'Anxious',
             backgroundColor:'rgba(255, 234, 0, 0.2)',
-            borderColor:'rgba(255, 234, 0, 1)',  
-            data: output3.innerHTML, 
-        }, {
-            label: 'Sad',
-            backgroundColor:'rgba(85, 0, 255, 0.2)',
-            borderColor:'rgba(85, 0, 255, 1)',  
-            data: output4.innerHTML, 
+            borderColor:'rgba(255, 234, 0, 1)',  Optimistic
         },{
             label: 'Stressed',
             backgroundColor:'rgba(255, 83, 64, 0.2)',
@@ -242,17 +241,17 @@ var chart = new Chart(ctx, {
 
 function updateChart(){
   chart.data.datasets[0].data = w;
-  chart.data.datasets[1].data = Calm();
-  chart.data.datasets[2].data = Optimistic();
-  chart.data.datasets[3].data = Anxious();
-  chart.data.datasets[4].data = Sad();
-  chart.data.datasets[5].data = Stressed();
-  chart.data.datasets[6].data = Angry();
-
+  chart.data.datasets[1].data =  calm;
+  chart.data.datasets[2].data = Optimistic;
+  chart.data.datasets[3].data = Anxious;
+  chart.data.datasets[4].data = Sad;
+  chart.data.datasets[5].data = Stressed;
+  chart.data.datasets[6].data = Angry;
+ 
   chart.update();
 }
 
-const button = document.querySelector('button');
+
 
 button.addEventListener('click', event => {
  update(output,output,output2,output3,output4,output5,output6,slider,slider1,slider2,slider3,slider4,slider5,slide)
