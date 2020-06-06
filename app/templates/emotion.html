@@ -29,14 +29,14 @@
     appearance: none;
     width: 25px;
     height: 25px;
-    background: rgb(38, 28, 131);
+    background: #4CAF50;
     cursor: pointer;
   }
   
   .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: rgb(38, 28, 131);
+    background: #4CAF50;
     cursor: pointer;
   }
   </style>{% endblock stylesheets %}
@@ -147,7 +147,7 @@ output4.innerHTML = slider4.value;
 output5.innerHTML = slider5.value;
 output6.innerHTML = slider6.value;
 
-slider.oninput = function Happy() {
+var w = slider.oninput = function Happy() {
   output.innerHTML = this.value;
   
   
@@ -205,7 +205,7 @@ var chart = new Chart(ctx, {
             label: 'Happy',
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
             borderColor: 'rgba(255, 99, 132, 1)', 
-            data: output.innerHTML,
+            data: w,
         }, {
             label: 'Calm',
             backgroundColor:'rgba(54, 162, 235, 0.2)',
@@ -251,7 +251,7 @@ function updateChart(){
   chart.update();
 }
 
-
+const button = document.querySelector('button');
 
 button.addEventListener('click', event => {
  update(output,output,output2,output3,output4,output5,output6,slider,slider1,slider2,slider3,slider4,slider5,slide)
