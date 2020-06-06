@@ -116,6 +116,12 @@
 {% block javascripts %}
 
 <script>
+var calm = '{{ calm }}';
+var Optimistic = '{{ Optimistic }}';
+var Anxious = '{{ Anxious }}'
+var Sad = '{{ Sad }}'
+var Stressed ='{{ Stressed }}'
+var Angry = '{{ Angry }}'
 
 var slider = document.getElementById("myRange");
 var slider1 = document.getElementById("myRange1");
@@ -165,7 +171,6 @@ slider3.oninput = function Anxious() {
 
 slider4.oninput = function Sad() {
   output4.innerHTML = this.value;
-  
 }
 
 
@@ -195,7 +200,7 @@ var chart = new Chart(ctx, {
 
     // The data for our dataset
     data: {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        labels: ['Happy', 'Calm', 'Optimistic', 'Anxious', 'Sad', 'Stressed', 'Angry'],
         datasets: [{
             label: 'Happy',
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
@@ -214,13 +219,7 @@ var chart = new Chart(ctx, {
         },{
             label: 'Anxious',
             backgroundColor:'rgba(255, 234, 0, 0.2)',
-            borderColor:'rgba(255, 234, 0, 1)',  
-            data: output3.innerHTML, 
-        }, {
-            label: 'Sad',
-            backgroundColor:'rgba(85, 0, 255, 0.2)',
-            borderColor:'rgba(85, 0, 255, 1)',  
-            data: output4.innerHTML, 
+            borderColor:'rgba(255, 234, 0, 1)',  Optimistic
         },{
             label: 'Stressed',
             backgroundColor:'rgba(255, 83, 64, 0.2)',
@@ -242,13 +241,13 @@ var chart = new Chart(ctx, {
 
 function updateChart(){
   chart.data.datasets[0].data = w;
-  chart.data.datasets[1].data = Calm();
-  chart.data.datasets[2].data = Optimistic();
-  chart.data.datasets[3].data = Anxious();
-  chart.data.datasets[4].data = Sad();
-  chart.data.datasets[5].data = Stressed();
-  chart.data.datasets[6].data = Angry();
-
+  chart.data.datasets[1].data =  calm;
+  chart.data.datasets[2].data = Optimistic;
+  chart.data.datasets[3].data = Anxious;
+  chart.data.datasets[4].data = Sad;
+  chart.data.datasets[5].data = Stressed;
+  chart.data.datasets[6].data = Angry;
+ 
   chart.update();
 }
 
