@@ -45421,3 +45421,52 @@ INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 18:20:43] "GET /static/assets/img/brand
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 18:20:43] "GET /static/assets/img/favicon/apple-touch-icon.png HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 18:20:56] "GET /emotion.html HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 18:20:57] "GET /static/assets/img/favicon/apple-touch-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 18:39:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 18:39:30] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 18:39:35] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "c:\users\laure\desktop\flask-pixel-bootstrap-uikit\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\laure\desktop\flask-pixel-bootstrap-uikit\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\laure\desktop\flask-pixel-bootstrap-uikit\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\laure\desktop\flask-pixel-bootstrap-uikit\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\laure\desktop\flask-pixel-bootstrap-uikit\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\laure\desktop\flask-pixel-bootstrap-uikit\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\laure\Desktop\HackTheNorthEast\app\views.py", line 141, in data
+    slider1 =request.forms.get('slider')
+  File "c:\users\laure\desktop\flask-pixel-bootstrap-uikit\venv\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'Request' object has no attribute 'forms'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 18:39:35] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 18:39:40] "[37mGET /live.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 18:39:45] "[37mGET /resource.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 18:40:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 18:40:56] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "c:\users\laure\desktop\flask-pixel-bootstrap-uikit\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\laure\desktop\flask-pixel-bootstrap-uikit\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\laure\desktop\flask-pixel-bootstrap-uikit\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\laure\desktop\flask-pixel-bootstrap-uikit\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\laure\desktop\flask-pixel-bootstrap-uikit\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\laure\desktop\flask-pixel-bootstrap-uikit\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\laure\Desktop\HackTheNorthEast\app\views.py", line 141, in data
+    slider1 =request.forms.get('slider')
+  File "c:\users\laure\desktop\flask-pixel-bootstrap-uikit\venv\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'Request' object has no attribute 'forms'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 18:40:56] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 18:41:30] "[37mGET / HTTP/1.1[0m" 200 -
