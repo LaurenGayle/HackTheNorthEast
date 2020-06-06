@@ -3,11 +3,11 @@ Module to read data from database
 """
 
 import app.views as views
-import app.models as models
-from app.models import User
+#import app.models as models
+#from app.models import User
 import logging as log
-import app.util as util
-from app.data import db,Database
+#import app.util as util
+#from app.data import db,Database
 from flask_sqlalchemy import SQLAlchemy as db
 from sqlalchemy.engine import create_engine
 from sqlalchemy.orm.session import sessionmaker
