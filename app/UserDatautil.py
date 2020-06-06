@@ -1,35 +1,60 @@
 """
 Module to read data from database 
-""" 
-'''
-from app  import db
+"""
+from app import db
 
 import app.views as views
-import app.models as models
 from app.models import User
 from geoip import geolite2
 import logging as log
-from wtforms.fields.simple import BooleanField
+import app.util as util
+from app.data import db,Database
+from flask_sqlalchemy import SQLAlchemy as db
+from sqlalchemy.engine import create_engine
+from sqlalchemy.orm.session import sessionmaker
 
-log.basicConfig(filename='example.log',level=log.DEBUG)
+
+
+log.basicConfig(filename='example.log', level=log.DEBUG)
+
+def create_session(config):
+    engine = create_engine(config['DATABASE_URI'])
+    Session = sessionmaker(bind=engine)
+    session = Session()
+    session._model_changes = {}
+    return session 
+
 def getUser(username):
 
     log.debug(username)
     return username
 
+
 def getId(user_id):
     log.debug("test for user id")
-    
+
     log.debug(id)
     return int(user_id)
+
 
 def getAge():
     return
 
-def getUserLocation(ipaddr):
-    match = geolite2.lookup(ipaddr)
-    return match.subdivisions
 
-def getUserIntput():
+def getUserIntput(slider1data, slider2data, slider3data, slider4data, slider5data, slider6data):
+    log.info("Sliders 1\n"+slider1data)
+    log.info("Sliders 2\n"+slider2data)
+    log.info("Sliders 3\n"+slider3data)
+    log.info("Sliders 4\n"+slider4data)
+    log.info("Sliders 5\n"+slider5data)
+    log.info("Sliders 6\n"+slider6data)
+
     
-     return    '''
+    db.session.add(happy =slider1data,calm= slider2data,optimistic= slider3data,anxious=slider4data,sad=slider5data,anger=slider6data)
+    querydata()
+    
+    
+def querydata():
+    angerlog = db.query(db.id, db.calm)
+    for id in angerlog:
+        log.warn("database data"+ str(id))
