@@ -29,14 +29,14 @@
     appearance: none;
     width: 25px;
     height: 25px;
-    background: #4CAF50;
+    background: rgb(38, 28, 131);
     cursor: pointer;
   }
   
   .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: #4CAF50;
+    background: rgb(38, 28, 131);
     cursor: pointer;
   }
   </style>{% endblock stylesheets %}
@@ -102,6 +102,11 @@
       </div> 
 
       <div>
+        <button type="button" class="btn btn-primary">Graph</button>
+      </div>
+
+
+      <div>
         <button type="button" class="btn btn-primary">Save</button>
       </div>
 
@@ -140,7 +145,7 @@ output4.innerHTML = slider4.value;
 output5.innerHTML = slider5.value;
 output6.innerHTML = slider5.value;
 
-var w = slider.oninput = function Happy() {
+slider.oninput = function Happy() {
   output.innerHTML = this.value;
 }
 
@@ -180,7 +185,7 @@ var myPieChart = new Chart(ctx, {
             label: 'Happy',
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
             borderColor: 'rgba(255, 99, 132, 1)', 
-            data: w,
+            data: output.innerHTML,
         }, {
             label: 'Calm',
             backgroundColor:'rgba(54, 162, 235, 0.2)',
@@ -221,7 +226,7 @@ var myPieChart = new Chart(ctx, {
 });
 
 function updateChart(){
-  chart.data.datasets[0].data = w;
+  chart.data.datasets[0].data = Happy();
   chart.data.datasets[1].data = Calm();
   chart.data.datasets[2].data = Optimistic();
   chart.data.datasets[3].data = Anxious();
@@ -232,7 +237,7 @@ function updateChart(){
   chart.update();
 }
 
-const button = document.querySelector('button');
+
 
 button.addEventListener('click', event => {
   button.innerHTML = `Click count: ${event.detail}`;
