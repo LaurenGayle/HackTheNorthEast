@@ -6,6 +6,11 @@ import app.views as views
 
 from geoip import geolite2
 import logging as log
+import app.util as util
+from app.data import db,Database
+from flask_sqlalchemy import SQLAlchemy as db
+from sqlalchemy.engine import create_engine
+from sqlalchemy.orm.session import sessionmaker
 
 from tinydb import TinyDB, Query
 
@@ -13,6 +18,12 @@ from tinydb import TinyDB, Query
 db = TinyDB('db.json')
 log.basicConfig(filename='example.log', level=log.DEBUG)
 
+def create_session(config):
+    engine = create_engine(config['DATABASE_URI'])
+    Session = sessionmaker(bind=engine)
+    session = Session()
+    session._model_changes = {}
+    return session 
 
 def getUser(username):
 
@@ -44,6 +55,13 @@ def getUserIntput(slider1data, slider2data, slider3data, slider4data, slider5dat
     db.insert({'type': 'sad', 'count': slider5data})
     db.insert({'type': 'Cal', 'count': slider1data})
 
-
-def getAnger(slider6data):
-    return slider6data
+    
+    db.session.add(happy =slider1data,calm= slider2data,optimistic= slider3data,anxious=slider4data,sad=slider5data,anger=slider6data)
+    querydata()
+    
+    
+def querydata():
+    angerlog = db.query(db.id, db.calm)
+    for id in angerlog:
+        log.warn("database data"+ str(id))
+'''
