@@ -64,4 +64,4 @@ def querydata():
     angerlog = db.query(db.id, db.calm)
     for id in angerlog:
         log.warn("database data"+ str(id))
-'''
+

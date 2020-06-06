@@ -62,4 +62,3 @@ def Data():
     data.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
     angry =data.getAnger(slider6data)
     return angry
-
