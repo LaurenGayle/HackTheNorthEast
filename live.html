@@ -1,0 +1,83 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Blank {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<!-- Content here -->
+<section class="section section bg-primary pb-11 pb-lg-12 text-white overflow-hidden z-2">
+    <div class="container z-2">
+        <div class="row justify-content-center text-center pt-6 pb-3" role="banner">
+            <div class="col-12 col-md-8">
+                <h1 class="display-1 font-weight-light mb-3">Live Graph</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <canvas id="myChart" width="50" height="50"> </canvas>
+                        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</section>
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+<script>
+    var ctx = document.getElementById('myChart');
+    var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ['Happy', 'Calm', 'Optimistic', 'Sad', 'Anxious', 'Stressed', 'Angry'],
+            datasets: [{
+                label: 'Emotions',
+                data: [12, 19, 3, 5, 2, 3, 14],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(0, 210, 217, 0.2)',
+                    'rgba(255, 234, 0, 0.2)',
+                    'rgba(85, 0, 255, 0.2)',
+                    'rgba(255, 83, 64, 0.2)',
+                    'rgba(140, 255, 102, 0.2)'
+                ],
+                borderColor: [
+                'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(0, 210, 217, 1)',
+                    'rgba(255, 234, 0, 1)',
+                    'rgba(85, 0, 255, 1)',
+                    'rgba(255, 83, 64, 1)',
+                    'rgba(140, 255, 102, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }]
+            }
+        }
+    });
+
+    function addData(chart, data){
+    };
+    chart.update();
+
+
+    </script>
+{% endblock javascripts %}
