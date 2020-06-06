@@ -8,12 +8,21 @@ from app.models import User
 from geoip import geolite2
 import logging as log
 import app.util as util
-
+from app.data import db,Database
+from flask_sqlalchemy import SQLAlchemy as db
+from sqlalchemy.engine import create_engine
+from sqlalchemy.orm.session import sessionmaker
 
 
 
 log.basicConfig(filename='example.log', level=log.DEBUG)
 
+def create_session(config):
+    engine = create_engine(config['DATABASE_URI'])
+    Session = sessionmaker(bind=engine)
+    session = Session()
+    session._model_changes = {}
+    return session 
 
 def getUser(username):
 
@@ -40,6 +49,12 @@ def getUserIntput(slider1data, slider2data, slider3data, slider4data, slider5dat
     log.info("Sliders 5\n"+slider5data)
     log.info("Sliders 6\n"+slider6data)
 
-
-def getAnger(slider6data):
-    return slider6data
+    
+    db.session.add(happy =slider1data,calm= slider2data,optimistic= slider3data,anxious=slider4data,sad=slider5data,anger=slider6data)
+    querydata()
+    
+    
+def querydata():
+    angerlog = db.query(db.id, db.calm)
+    for id in angerlog:
+        log.warn("database data"+ str(id))

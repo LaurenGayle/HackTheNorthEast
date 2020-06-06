@@ -20,8 +20,6 @@ from app.models import User
 from app.forms import LoginForm, RegisterForm
 
 import app.UserDatautil as datahandler
-import app.UserDatautil as data
-
 
 
 # provide login manager with load_user callback
@@ -161,9 +159,6 @@ def Data():
     slider6data = request.form.get("output6")
     
     datahandler.getUserIntput(slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
-    angry =data.getAnger(slider6data)
-    return angry
+    
+    return (slider1data,slider2data,slider3data,slider4data,slider5data,slider6data)
 
-@app.route('/emotions.html',)
-def push():
-      return render_template("/emotions.html",angry = 1)
