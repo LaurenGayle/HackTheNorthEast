@@ -1,7 +1,6 @@
 """
 Module to read data from database 
 """ 
-'''
 from app  import db
 
 import app.views as views
@@ -26,10 +25,6 @@ def getId(user_id):
 def getAge():
     return
 
-def getUserLocation(ipaddr):
-    match = geolite2.lookup(ipaddr)
-    return match.subdivisions
-
 def getUserIntput():
     
-     return    '''
+     return    

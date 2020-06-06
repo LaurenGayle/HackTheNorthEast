@@ -116,7 +116,7 @@ def login():
 """
 # App main route + generic routing
 @app.route('/', defaults={'path': 'index.html'})
-@app.route('/<path>')
+@app.route('/<path>',)
 def index(path):
     try:
 
@@ -137,8 +137,13 @@ def index(path):
 def sitemap():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
 
-
-
-def getUsersStats(username):
-    datahandler.getUser(username)
+@app.route('/process',methods=['POST'])
+def data():
+   slider1 =request.forms.get('slider') 
+   slider2 = request.forms.get()
+   datahandler.log.debug("slider1"+ data())
+   return slider1
+   
+   
+    
     
