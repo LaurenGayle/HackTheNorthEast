@@ -45526,3 +45526,251 @@ INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:27] "[33mGET /static/assets/img/
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:27] "[33mGET /static/assets/img/carousel/sadKid.jpg HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:27] "[33mGET /static/assets/img/carousel/stressed.jpg HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:27] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/HackTheNorthEast/app/views.py", line 43, in index
+    return render_template('page-500.html'), 500
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
+    ctx.app.update_template_context(context)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
+    context.update(func())
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
+    return dict(current_user=_get_user())
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
+    current_app.login_manager._load_user()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
+    raise Exception(
+Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:46] "GET /emotion.html HTTP/1.1" 500 -
+ERROR:app:Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/home/nicholas/HackTheNorthEast/app/views.py", line 37, in index
+    return render_template(path)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
+    ctx.app.update_template_context(context)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
+    context.update(func())
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
+    return dict(current_user=_get_user())
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
+    current_app.login_manager._load_user()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
+    raise Exception(
+Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/HackTheNorthEast/app/views.py", line 43, in index
+    return render_template('page-500.html'), 500
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
+    ctx.app.update_template_context(context)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
+    context.update(func())
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
+    return dict(current_user=_get_user())
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
+    current_app.login_manager._load_user()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
+    raise Exception(
+Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:46] "GET /favicon.ico HTTP/1.1" 500 -
+ERROR:app:Exception on /emotion.html [GET]
+Traceback (most recent call last):
+  File "/home/nicholas/HackTheNorthEast/app/views.py", line 37, in index
+    return render_template(path)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
+    ctx.app.update_template_context(context)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
+    context.update(func())
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
+    return dict(current_user=_get_user())
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
+    current_app.login_manager._load_user()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
+    raise Exception(
+Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/HackTheNorthEast/app/views.py", line 43, in index
+    return render_template('page-500.html'), 500
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
+    ctx.app.update_template_context(context)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
+    context.update(func())
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
+    return dict(current_user=_get_user())
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
+    current_app.login_manager._load_user()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
+    raise Exception(
+Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:47] "GET /emotion.html HTTP/1.1" 500 -
+ERROR:app:Exception on /emotion.html [GET]
+Traceback (most recent call last):
+  File "/home/nicholas/HackTheNorthEast/app/views.py", line 37, in index
+    return render_template(path)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
+    ctx.app.update_template_context(context)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
+    context.update(func())
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
+    return dict(current_user=_get_user())
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
+    current_app.login_manager._load_user()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
+    raise Exception(
+Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/HackTheNorthEast/app/views.py", line 43, in index
+    return render_template('page-500.html'), 500
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
+    ctx.app.update_template_context(context)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
+    context.update(func())
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
+    return dict(current_user=_get_user())
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
+    current_app.login_manager._load_user()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
+    raise Exception(
+Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:48] "GET /emotion.html HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:05] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:26] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:26] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:31] "GET /resource.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:31] "GET /static/assets/img/blog/nami-logo-blue.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:32] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:32] "GET /static/assets/img/favicon/favicon-16x16.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:35] "GET /live.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:47] "GET /static/assets/img/carousel/angry.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:47] "GET /static/assets/img/carousel/consoling.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:47] "GET /static/assets/img/carousel/happiness.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:47] "GET /static/assets/img/carousel/happypeople.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:47] "GET /static/assets/img/carousel/sadKid.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:47] "GET /static/assets/img/carousel/stressed.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:47] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:47] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:47] "GET /static/assets/img/favicon/apple-touch-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:44:47] "GET /static/assets/img/favicon/favicon-16x16.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:46:39] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:46:40] "GET /static/assets/img/favicon/apple-touch-icon.png HTTP/1.1" 200 -
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/HackTheNorthEast/app/views.py", line 155, in data
+    slider1 = request.forms.get("output")
+  File "/home/nicholas/.local/lib/python3.8/site-packages/werkzeug/local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'Request' object has no attribute 'forms'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:46:45] "POST /process HTTP/1.1" 500 -
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/HackTheNorthEast/app/views.py", line 155, in data
+    slider1 = request.forms.get("output")
+  File "/home/nicholas/.local/lib/python3.8/site-packages/werkzeug/local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'Request' object has no attribute 'forms'
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:46:50] "POST /process HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

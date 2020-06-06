@@ -18,12 +18,6 @@ from tinydb import TinyDB, Query
 db = TinyDB('db.json')
 log.basicConfig(filename='example.log', level=log.DEBUG)
 
-def create_session(config):
-    engine = create_engine(config['DATABASE_URI'])
-    Session = sessionmaker(bind=engine)
-    session = Session()
-    session._model_changes = {}
-    return session 
 
 def getUser(username):
 

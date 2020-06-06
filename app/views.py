@@ -14,6 +14,7 @@ from flask_login import login_user, logout_user, current_user, login_required
 from werkzeug.exceptions import HTTPException, NotFound, abort
 from jinja2 import TemplateNotFound
 
+
 # App modules
 from app import app, lm, db, bc
 #from app.models import User
