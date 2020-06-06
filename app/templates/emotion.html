@@ -116,7 +116,7 @@
 {% block javascripts %}
 
 <script>
-var setoutput;
+
 var slider = document.getElementById("myRange");
 var slider1 = document.getElementById("myRange1");
 var slider2 = document.getElementById("myRange2");
@@ -139,7 +139,7 @@ output2.innerHTML = slider2.value;
 output3.innerHTML = slider3.value;
 output4.innerHTML = slider4.value;
 output5.innerHTML = slider5.value;
-output6.innerHTML = slider5.value;
+output6.innerHTML = slider6.value;
 
 var w = slider.oninput = function Happy() {
   output.innerHTML = this.value;
@@ -155,16 +155,7 @@ slider2.oninput = function Optimistic() {
   output2.innerHTML = this.value;
 
 
-  $.ajax({
-            method: 'post',
-            url: '/process',
-              type:'POST',
-               traditional:true,
-                    data:{
-                        slider2:this.value
-                            }
-       })
-   
+  
 }
 
 slider3.oninput = function Anxious() {
@@ -184,7 +175,7 @@ slider5.oninput = function Stressed() {
 
 slider6.oninput = function Angry() {
   output6.innerHTML = this.value;
-  t
+  
 }
 
 $.ajax({
@@ -193,11 +184,16 @@ $.ajax({
               type:'POST',
                traditional:true,
                     data:{
-                        slider:slider.value,
-                        
+                        output:slider.value,
+                        output1:slider1.value,
+                        output2:slider2.value,
+                        output3:slider3.value,
+                        output4:slider4.value,
+                        output5:slider5.value,
+                        output6:slider6.value
                             }
        })
-
+   
 
 var ctx = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(ctx, {
