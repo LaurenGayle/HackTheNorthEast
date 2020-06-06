@@ -18,7 +18,7 @@ from app        import app, lm, db, bc
 from app.models import User
 from app.forms  import LoginForm, RegisterForm
 
-import app.readDatabase as datahandler
+import app.UserDatautil as datahandler
 
 
 # provide login manager with load_user callback
@@ -56,7 +56,8 @@ def register():
         # filter User out of database through username
         user = User.query.filter_by(user=username).first()
 
-        
+        getUsersStats(user
+                      )
         # filter User out of database through username
         user_by_email = User.query.filter_by(email=email).first()
 
@@ -78,6 +79,7 @@ def register():
 
     return render_template( 'accounts/register.html', form=form, msg=msg )
 
+"""
 # Authenticate user
 @app.route('/login.html', methods=['GET', 'POST'])
 def login():
@@ -111,15 +113,11 @@ def login():
             msg = "Unknown user"
 
     return render_template( 'accounts/login.html', form=form, msg=msg )
-
+"""
 # App main route + generic routing
 @app.route('/', defaults={'path': 'index.html'})
 @app.route('/<path>')
 def index(path):
-
-    if not current_user.is_authenticated:
-        return redirect(url_for('login'))
-
     try:
 
         if not path.endswith( '.html' ):
@@ -143,4 +141,4 @@ def sitemap():
 
 def getUsersStats(username):
     datahandler.getUser(username)
-                
+    
