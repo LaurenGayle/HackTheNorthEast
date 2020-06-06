@@ -116,11 +116,8 @@
 {% block javascripts %}
 
 <script>
-<<<<<<< HEAD
 var setoutput;
-=======
 
->>>>>>> parent of 269a809... Merge remote-tracking branch 'origin/master'
 var slider = document.getElementById("myRange");
 var slider1 = document.getElementById("myRange1");
 var slider2 = document.getElementById("myRange2");
@@ -206,11 +203,11 @@ $.ajax({
 var ctx = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
-    type: 'line',
+    type: 'pie',
 
     // The data for our dataset
     data: {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        labels: ['Happy', 'Calm', 'Optimistic', 'Anxious', 'Sad', 'Stressed', 'Angry'],
         datasets: [{
             label: 'Happy',
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
