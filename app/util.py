@@ -38,3 +38,5 @@ def g_db_del( obj ):
 
     if obj:
         db.session.delete ( obj )
+
+

@@ -18,6 +18,9 @@ from app        import app, lm, db, bc
 from app.models import User
 from app.forms  import LoginForm, RegisterForm
 
+import app.readDatabase as datahandler
+
+
 # provide login manager with load_user callback
 @lm.user_loader
 def load_user(user_id):
@@ -53,6 +56,7 @@ def register():
         # filter User out of database through username
         user = User.query.filter_by(user=username).first()
 
+        
         # filter User out of database through username
         user_by_email = User.query.filter_by(email=email).first()
 
@@ -99,6 +103,7 @@ def login():
             #if bc.check_password_hash(user.password, password):
             if user.password == password:
                 login_user(user)
+                getUsersStats(user)
                 return redirect(url_for('index'))
             else:
                 msg = "Wrong password. Please try again."
@@ -133,3 +138,9 @@ def index(path):
 @app.route('/sitemap.xml')
 def sitemap():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
+
+
+
+def getUsersStats(username):
+    datahandler.getUser(username)
+                
