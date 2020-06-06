@@ -45519,6 +45519,10 @@ INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:34:08] "[37mGET /resource.html HTTP
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:34:14] "[37mGET / HTTP/1.1[0m" 200 -
 INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:27] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:27] "[33mGET /static/assets/img/carousel/angry.jpg HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:27] "[33mGET /static/assets/img/carousel/consoling.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:27] "[33mGET /static/assets/img/carousel/happiness.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:27] "[33mGET /static/assets/img/carousel/happypeople.jpg HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:27] "[33mGET /static/assets/img/carousel/sadKid.jpg HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:27] "[33mGET /static/assets/img/carousel/stressed.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 19:42:27] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
