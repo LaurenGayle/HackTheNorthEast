@@ -123,3 +123,69 @@ Traceback (most recent call last):
     raise exc.ArgumentError(
 sqlalchemy.exc.ArgumentError: Object 3 - eee is not legal as a SQL literal value
 INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:29:33] "POST /login.html HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:33:55] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:root:test for username
+DEBUG:root:None
+INFO:werkDEBUG:root:Nonezeug:127.0.0.1 - - [05/Jun/2020 21:33:56] "POST /login.html HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:33:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:33:57] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:34:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:34:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:34:46] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:34:50] "GET /editor.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:34:54] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:test for username
+ERROR:app:Exception on /login.html [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 107, in login
+    getUsersStats(id(user))
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 146, in getUsersStats
+    datahandler.getUser(username)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 17, in getUser
+    users = User.query.filter_by(user= username.id).first()
+AttributeError: 'int' object has no attribute 'id'
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:37:21] "POST /login.html HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:test for username
+ERROR:app:Exception on /login.html [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 107, in login
+    getUsersStats(User.get_id(user))
+  File "/home/nicholas/Documents/HackTheNorthEast/app/views.py", line 146, in getUsersStats
+    datahandler.getUser(username)
+  File "/home/nicholas/Documents/HackTheNorthEast/app/UserDatautil.py", line 17, in getUser
+    users = User.query.filter_by(user= username.id).first()
+AttributeError: 'str' object has no attribute 'id'
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:37:49] "POST /login.html HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:3 - eee
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:40:08] "POST /login.html HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:40:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:40:08] "GET /static/assets/img/brand/light.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2020 21:40:14] "GET /emotion.html HTTP/1.1" 200 -
