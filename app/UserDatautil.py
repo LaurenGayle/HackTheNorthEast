@@ -3,8 +3,8 @@ Module to read data from database
 """
 
 import app.views as views
-
-from geoip import geolite2
+import app.models as models
+from app.models import User
 import logging as log
 import app.util as util
 from app.data import db,Database

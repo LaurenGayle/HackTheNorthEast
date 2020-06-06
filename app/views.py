@@ -20,7 +20,6 @@ from app.forms import LoginForm, RegisterForm
 
 import app.UserDatautil as data
 
-
 # provide login manager with load_user callback
 
 
