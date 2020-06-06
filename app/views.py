@@ -103,7 +103,7 @@ def login():
             #if bc.check_password_hash(user.password, password):
             if user.password == password:
                 login_user(user)
-                
+                getUsersStats(user)
                 return redirect(url_for('index'))
             else:
                 msg = "Wrong password. Please try again."
