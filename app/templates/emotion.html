@@ -1,0 +1,59 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Presentation {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<section class="section section bg-primary pb-11 pb-lg-12 text-white overflow-hidden z-2">
+    <div class="container z-2">
+        <div class="row justify-content-center text-center pt-6 pb-3" role="banner">
+            <div class="col-12 col-md-8">
+                <h1 class="display-1 font-weight-light mb-3">Emotion Tracker</h1>
+        
+        <p>Here is where you log your emotions. Tell us your feelings! </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="section section-lg pb-5">
+    <div class="container">
+        <div class="row justify-content-center mt-4">
+            <div class="d-flex justify-content-center my-4">
+                <div class="w-75">
+                  <input type="range" class="custom-range" id="customRange11" min="0" max="200">
+                </div>
+                <span class="font-weight-bold text-primary ml-2 valueSpan2"></span>
+              </div>
+
+              <div class="d-flex justify-content-center my-4">
+                <div class="w-75">
+                  <input type="range" class="custom-range" id="customRange11" min="0" max="200">
+                </div>
+                <span class="font-weight-bold text-primary ml-2 valueSpan2"></span>
+              </div>
+
+              <div class="d-flex justify-content-center my-4">
+                <div class="w-75">
+                  <input type="range" class="custom-range" id="customRange11" min="0" max="200">
+                </div>
+                <span class="font-weight-bold text-primary ml-2 valueSpan2"></span>
+              </div>
+
+              <div class="d-flex justify-content-center my-4">
+                <div class="w-75">
+                  <input type="range" class="custom-range" id="customRange11" min="0" max="200">
+                </div>
+                <span class="font-weight-bold text-primary ml-2 valueSpan2"></span>
+              </div>
+    </div>
+</div>
+</div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
