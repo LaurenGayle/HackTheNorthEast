@@ -15,11 +15,11 @@ from flask_bcrypt     import Bcrypt
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
-app.run(host= '172.105.149.150')
+
 #app.config.from_object('app.configuration.Config')
 
 db = SQLAlchemy  (app) # flask-sqlalchemy
-bc = Bcrypt      (app) # flask-bcrypt
+
 
 lm = LoginManager(   ) # flask-loginmanager
 lm.init_app(app)       # init the login manager
@@ -31,3 +31,6 @@ def initialize_database():
 
 # Import routing, models and Start the App
 from app import views
+
+if __name__ == '__main__':
+    app.run('172.105.149.150')
