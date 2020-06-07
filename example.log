@@ -46422,3 +46422,157 @@ INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:09:21] "[37mPOST /process HTTP/1.1
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:09:25] "[37mGET /resource.html HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:09:29] "[37mGET /live.html HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:09:46] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:17:55] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:17:55] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:18:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:18:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:19:01] "[37mGET /resource.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:19:05] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:20:23] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:20:24] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:root:Sliders 1
+46
+INFO:root:Sliders 2
+54
+INFO:root:Sliders 3
+54
+INFO:root:Sliders 4
+39
+INFO:root:Sliders 5
+38
+INFO:root:Sliders 6
+43
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:20:39] "[37mPOST /process HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:20:41] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:20:42] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:22:17] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:22:17] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:22:46] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:22:46] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:24:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:24:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:25:01] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:47:00] "[37mGET /live.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:47:00] "[33mGET /js/index.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:47:01] "[33mGET /js/index.js HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:50:02] "[37mGET /live.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:50:02] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:50:46] "[37mGET /live.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:50:47] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:50:59] "[37mGET /resource.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:51:03] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:54:53] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:54:54] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:56:04] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:56:05] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:58:16] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:58:16] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:19:41] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:19:42] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:20:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:20:47] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:47:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:47:35] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:47:57] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/css/pixel.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/js/pixel.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/img/favicon/site.webmanifest HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:00:54] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:00:54] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:00:54] "[37mGET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:00:54] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:00:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:00:58] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:00:59] "[36mGET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:01:27] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:01:27] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:01:30] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:01:30] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:05:34] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:05:34] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:05:34] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:09:06] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:09:06] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:09:06] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:10:16] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:10:16] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:10:16] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:23:47] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:23:47] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:23:47] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:32:35] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:32:35] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:32:35] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:33:59] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:33:59] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:33:59] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:35:52] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:35:52] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:35:52] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:39:27] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:39:27] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:39:28] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:40:51] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:40:51] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:40:51] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:41:56] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:41:56] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:41:56] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:49:34] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:49:34] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:49:34] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:54:34] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:54:34] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:54:34] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:57:54] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:57:54] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:57:54] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:04:30] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:04:30] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:04:30] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:14:30] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:14:30] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:14:30] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -

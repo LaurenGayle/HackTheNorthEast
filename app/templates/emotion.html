@@ -68,42 +68,42 @@
     <div class="container">
       <h1>Slide each value to match how you feel:</h1>
       <div class="slidecontainer">
-        <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+        <input type="range"  min="0" max="100" value="0" class="slider" id="myRange">
         <p>Happy: <span id="demo"></span></p>
       </div> 
 
       <div class="slidecontainer">
-        <input type="range" min="0" max="100" value="0" class="slider" id="myRange1">
+        <input type="range"  min="0" max="100" value="0" class="slider" id="myRange1">
         <p>Calm: <span id="demo1"></span></p>
       </div> 
       
       <div class="slidecontainer">
-        <input type="range" min="0" max="100" value="0" class="slider" id="myRange2">
-        <p>Opptomistic: <span id="demo2"></span></p>
+        <input type="range"   min="0" max="100" value="0" class="slider" id="myRange2">
+        <p>Optimistic: <span id="demo2"></span></p>
       </div> 
 
       <div class="slidecontainer">
-        <input type="range" min="0" max="100" value="0" class="slider" id="myRange3">
+        <input type="range"   min="0" max="100" value="0" class="slider" id="myRange3">
         <p>Anxious: <span id="demo3"></span></p>
       </div> 
 
       <div class="slidecontainer">
-        <input type="range" min="0" max="100" value="0" class="slider" id="myRange4">
+        <input type="range"   min="0" max="100" value="0" class="slider" id="myRange4">
         <p>Sad: <span id="demo4"></span></p>
       </div> 
 
       <div class="slidecontainer">
-        <input type="range" min="0" max="100" value="0" class="slider" id="myRange5">
+        <input type="range"   min="0" max="100" value="0" class="slider" id="myRange5">
         <p>Stressed: <span id="demo5"></span></p>
       </div> 
 
       <div class="slidecontainer">
-        <input type="range" min="0" max="100" value="0" class="slider" id="myRange6">
+        <input type="range"  min="0" max="100" value="0" class="slider" id="myRange6">
         <p>Angry: <span id="demo6"></span></p>
       </div> 
 
       <div>
-        <button type="button" class="btn btn-primary" onclick="update(output,output1,output2,output3,output4,output5,output6,slider,slider1,slider2,slider3,slider4,slider5,slider6)">Save</button>
+        <button type="button" class="btn btn-primary" onclick="updateChart()" onclick="update(output,output1,output2,output3,output4,output5,output6,slider,slider1,slider2,slider3,slider4,slider5,slider6)">Save</button>
       </div>
 
     </div>
@@ -149,10 +149,8 @@ output4.innerHTML = slider4.value;
 output5.innerHTML = slider5.value;
 output6.innerHTML = slider6.value;
 
-var w = slider.oninput = function Happy() {
+slider.oninput = function Happy() {
   output.innerHTML = this.value;
-  
-  
 }
 
 slider1.oninput = function Calm() {
@@ -165,25 +163,19 @@ slider2.oninput = function Optimistic() {
 
 slider3.oninput = function Anxious() {
   output3.innerHTML = this.value;
-  
 }
 
 slider4.oninput = function Sad() {
-  output4.innerHTML = this.value;
-  
+  output4.innerHTML = this.value; 
 }
 
 slider5.oninput = function Anxious() {
-  output5.innerHTML = this.value;
-  
+  output5.innerHTML = this.value;  
 }
 
 slider6.oninput = function Sad() {
-  output6.innerHTML = this.value;
-  
+  output6.innerHTML = this.value; 
 }
-
-
 
 function update(output,output1,output2,output3,output4,output5,output6,slider,slider1,slider2,slider3,slider4,slider5,slider6){
 $.ajax({
@@ -207,47 +199,33 @@ $.ajax({
 var ctx = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
-    type: 'bar',
+    type: 'pie',
 
     // The data for our dataset
     data: {
         labels: ['Happy', 'Calm', 'Optimistic', 'Anxious', 'Sad', 'Stressed', 'Angry'],
         datasets: [{
-            label: 'Happy',
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor: 'rgba(255, 99, 132, 1)', 
-            data: w,
-        }, {
-            label: 'Calm',
-            backgroundColor:'rgba(54, 162, 235, 0.2)',
-            borderColor:'rgba(54, 162, 235, 1)',  
-            data: output1.innerHTML, 
-        }, {
-            label: 'Optimistic',
-            backgroundColor:'rgba(0, 210, 217, 0.2)',
-            borderColor:'rgba(0, 210, 217, 1)',  
-            data: output2.innerHTML, 
-        },{
-            label: 'Anxious',
-            backgroundColor:'rgba(255, 234, 0, 0.2)',
-            borderColor:'rgba(255, 234, 0, 1)',  
-            data: output3.innerHTML, 
-        }, {
-            label: 'Sad',
-            backgroundColor:'rgba(85, 0, 255, 0.2)',
-            borderColor:'rgba(85, 0, 255, 1)',  
-            data: output4.innerHTML, 
-        },{
-            label: 'Stressed',
-            backgroundColor:'rgba(255, 83, 64, 0.2)',
-            borderColor:'rgba(255, 83, 64, 1)',  
-            data: output5.innerHTML, 
-        },{
-            label: 'Angry',
-            backgroundColor:'rgba(140, 255, 102, 0.2)',
-            borderColor:'rgba(140, 255, 102, 1)',  
-            data: output6.innerHTML, 
-        },
+            label: 'Emotions',
+            backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(0, 210, 217, 0.2)',
+                    'rgba(255, 234, 0, 0.2)',
+                    'rgba(85, 0, 255, 0.2)',
+                    'rgba(255, 83, 64, 0.2)',
+                    'rgba(140, 255, 102, 0.2)'
+                ],
+                borderColor: [
+                'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(0, 210, 217, 1)',
+                    'rgba(255, 234, 0, 1)',
+                    'rgba(85, 0, 255, 1)',
+                    'rgba(255, 83, 64, 1)',
+                    'rgba(140, 255, 102, 1)'
+                ],
+            data: [output.innerHTML, output1.innerHTML, output2.innerHTML, output3.innerHTML, output4.innerHTML, output5.innerHTML, output6.innerHTML],
+        }
       ]
 
     },
@@ -256,16 +234,17 @@ var chart = new Chart(ctx, {
     options: {}
 });
 
-function updateChart(){
-  chart.data.datasets[0].data = Happy;
-  chart.data.datasets[1].data = Calm;
-  chart.data.datasets[2].data = Optimistic;
-  chart.data.datasets[3].data = Anxious;
-  chart.data.datasets[4].data = Sad;
-  chart.data.datasets[5].data = Stressed;
-  chart.data.datasets[6].data = Angry;
-
-  chart.update();
+update: function updateChart(reset){
+  chart.data.datasets[0].data = [output.innerHTML, output1.innerHTML, output2.innerHTML, output3.innerHTML, output4.innerHTML, output5.innerHTML, output6.innerHTML];
+  Chart.update({
+    duration: 800,
+    easing: 'easeOutBounce'
+});
+Chart.render({
+    duration: 800,
+    lazy: false,
+    easing: 'easeOutBounce'
+});
 }
 
 
