@@ -63,13 +63,7 @@
 
     </div>
 </section>
-
-<div class="section section-lg pb-5">
-    <div class="container">
-      <h1>Slide each value to match how you feel:</h1>
-      <div class="slidecontainer">
-        <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
-        <p>Happy: <span id="demo"></span></p>
+Stressedspan></p>
       </div> 
 
       <div class="slidecontainer">
@@ -116,7 +110,13 @@
 {% block javascripts %}
 
 <script>
-var setoutput;
+var Happy = '{{ Happy }}'
+var Calm = '{{ Calm }}'
+var Sad = '{{ Sad }}'
+var Angry = '{{ Angry }}'
+var Optimistic = '{{ Optimistic }}'
+var Stressed = '{{ Stressed }}'
+var Anxious = '{{ Anxious }}'
 
 var slider = document.getElementById("myRange");
 var slider1 = document.getElementById("myRange1");
@@ -189,7 +189,7 @@ $.ajax({
 var ctx = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
-    type: 'pie',
+    type: 'line',
 
     // The data for our dataset
     data: {
@@ -239,23 +239,18 @@ var chart = new Chart(ctx, {
 });
 
 function updateChart(){
-  chart.data.datasets[0].data = Happy();
-  chart.data.datasets[1].data = Calm();
-  chart.data.datasets[2].data = Optimistic();
-  chart.data.datasets[3].data = Anxious();
-  chart.data.datasets[4].data = Sad();
-  chart.data.datasets[5].data = Stressed();
-  chart.data.datasets[6].data = Angry();
+  chart.data.datasets[0].data = Happy;
+  chart.data.datasets[1].data = Calm;
+  chart.data.datasets[2].data = Optimistic;
+  chart.data.datasets[3].data = Anxious;
+  chart.data.datasets[4].data = Sad;
+  chart.data.datasets[5].data = Stressed;
+  chart.data.datasets[6].data = Angry;
 
   chart.update();
 }
 
-const button = document.querySelector('button');
 
-button.addEventListener('click', event => {
- update(output,output,output2,output3,output4,output5,output6,slider,slider1,slider2,slider3,slider4,slider5,slide)
- 
-});
 
 </script>
 
