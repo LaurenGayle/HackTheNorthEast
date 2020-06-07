@@ -16,7 +16,7 @@ from jinja2 import TemplateNotFound
 import json
 
 # App modules
-from app import app, lm, db, bc
+from app import app, lm,  bc
 #from app.models import User
 from app.forms import LoginForm, RegisterForm
 
