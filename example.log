@@ -45936,3 +45936,209 @@ INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:10:09] "GET /static/assets/css/pixel
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:10:09] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:10:09] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:16:59] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:00] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:08] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:08] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:14] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:15] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:17:40] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:18:16] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:01] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:28] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:20:53] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:28] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:root:Sliders 1
+7
+INFO:root:Sliders 2
+0
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+0
+INFO:root:Sliders 6
+0
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:35] "POST /process HTTP/1.1" 200 -
+INFO:root:Sliders 1
+7
+INFO:root:Sliders 2
+0
+INFO:root:Sliders 3
+0
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+0
+INFO:root:Sliders 6
+0
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:21:37] "POST /process HTTP/1.1" 200 -
+INFO:root:Sliders 1
+7
+INFO:root:Sliders 2
+44
+INFO:root:Sliders 3
+50
+INFO:root:Sliders 4
+0
+INFO:root:Sliders 5
+100
+INFO:root:Sliders 6
+36
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:00] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:39] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:39] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:39] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:39] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:39] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:39] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:39] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:39] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:39] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:39] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:39] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:39] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:40] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:40] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:40] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:40] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:40] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:40] "GET /static/assets/img/brand/FeeliesLogo.svg HTTP/1.1" 304 -
+INFO:root:Sliders 1
+7
+INFO:root:Sliders 2
+44
+INFO:root:Sliders 3
+50
+INFO:root:Sliders 4
+9
+INFO:root:Sliders 5
+100
+INFO:root:Sliders 6
+11
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:22:43] "POST /process HTTP/1.1" 200 -
