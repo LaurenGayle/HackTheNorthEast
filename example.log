@@ -1,545 +1,4 @@
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:31] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:32] "GET /static/assets/img/favicon/apple-touch-icon.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:16:32] "GET /static/assets/img/favicon/favicon-16x16.png HTTP/1.1" 200 -
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:18:02] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:51] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:root:Sliders 1
-11
-INFO:root:Sliders 2
-86
-INFO:root:Sliders 3
-21
-INFO:root:Sliders 4
-100
-INFO:root:Sliders 5
-44
-INFO:root:Sliders 6
-19
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:59] "POST /process HTTP/1.1" 200 -
-INFO:root:Sliders 1
-11
-INFO:root:Sliders 2
-86
-INFO:root:Sliders 3
-21
-INFO:root:Sliders 4
-100
-INFO:root:Sliders 5
-44
-INFO:root:Sliders 6
-19
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:22:59] "POST /process HTTP/1.1" 200 -
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:01] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:root:Sliders 1
-11
-INFO:root:Sliders 2
-86
-INFO:root:Sliders 3
-21
-INFO:root:Sliders 4
-100
-INFO:root:Sliders 5
-44
-INFO:root:Sliders 6
-19
-ERROR:app:Exception on /process [POST]
-Traceback (most recent call last):
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 162, in data
-    update(slider1,slider2,slider3,slider4,slider5,slider6)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 169, in update
-    return render_template('/emotions.html',Stressed = 0, Calm= slider2,Sad = slider5, Angry = slider6, Optimistic = slider3, Happy = slider1, Anxious = slider4)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 138, in render_template
-    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 930, in get_or_select_template
-    return self.get_template(template_name_or_list, parent, globals)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 883, in get_template
-    return self._load_template(name, self.make_globals(globals))
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 857, in _load_template
-    template = self.loader.load(self, name, globals)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 115, in load
-    source, filename, uptodate = self.get_source(environment, name)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 60, in get_source
-    return self._get_source_fast(environment, template)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 89, in _get_source_fast
-    raise TemplateNotFound(template)
-jinja2.exceptions.TemplateNotFound: /emotions.html
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:06] "POST /process HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:29:08] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:10] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:root:Sliders 1
-11
-INFO:root:Sliders 2
-86
-INFO:root:Sliders 3
-21
-INFO:root:Sliders 4
-100
-INFO:root:Sliders 5
-44
-INFO:root:Sliders 6
-19
-ERROR:app:Exception on /process [POST]
-Traceback (most recent call last):
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 162, in data
-    update(slider1,slider2,slider3,slider4,slider5,slider6)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 169, in update
-    return render_template('/emotions.html',Stressed = 2, Calm= slider2,Sad = slider5, Angry = slider6, Optimistic = slider3, Happy = slider1, Anxious = slider4)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 138, in render_template
-    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 930, in get_or_select_template
-    return self.get_template(template_name_or_list, parent, globals)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 883, in get_template
-    return self._load_template(name, self.make_globals(globals))
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 857, in _load_template
-    template = self.loader.load(self, name, globals)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 115, in load
-    source, filename, uptodate = self.get_source(environment, name)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 60, in get_source
-    return self._get_source_fast(environment, template)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 89, in _get_source_fast
-    raise TemplateNotFound(template)
-jinja2.exceptions.TemplateNotFound: /emotions.html
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:21] "POST /process HTTP/1.1" 500 -
-INFO:root:Sliders 1
-11
-INFO:root:Sliders 2
-86
-INFO:root:Sliders 3
-21
-INFO:root:Sliders 4
-100
-INFO:root:Sliders 5
-44
-INFO:root:Sliders 6
-19
-ERROR:app:Exception on /process [POST]
-Traceback (most recent call last):
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 162, in data
-    update(slider1,slider2,slider3,slider4,slider5,slider6)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 169, in update
-    return render_template('/emotions.html',Stressed = 2, Calm= slider2,Sad = slider5, Angry = slider6, Optimistic = slider3, Happy = slider1, Anxious = slider4)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 138, in render_template
-    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 930, in get_or_select_template
-    return self.get_template(template_name_or_list, parent, globals)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 883, in get_template
-    return self._load_template(name, self.make_globals(globals))
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 857, in _load_template
-    template = self.loader.load(self, name, globals)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 115, in load
-    source, filename, uptodate = self.get_source(environment, name)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 60, in get_source
-    return self._get_source_fast(environment, template)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 89, in _get_source_fast
-    raise TemplateNotFound(template)
-jinja2.exceptions.TemplateNotFound: /emotions.html
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:22] "POST /process HTTP/1.1" 500 -
-INFO:root:Sliders 1
-11
-INFO:root:Sliders 2
-86
-INFO:root:Sliders 3
-21
-INFO:root:Sliders 4
-100
-INFO:root:Sliders 5
-44
-INFO:root:Sliders 6
-19
-ERROR:app:Exception on /process [POST]
-Traceback (most recent call last):
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 162, in data
-    update(slider1,slider2,slider3,slider4,slider5,slider6)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 169, in update
-    return render_template('/emotions.html',Stressed = 2, Calm= slider2,Sad = slider5, Angry = slider6, Optimistic = slider3, Happy = slider1, Anxious = slider4)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 138, in render_template
-    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 930, in get_or_select_template
-    return self.get_template(template_name_or_list, parent, globals)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 883, in get_template
-    return self._load_template(name, self.make_globals(globals))
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 857, in _load_template
-    template = self.loader.load(self, name, globals)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 115, in load
-    source, filename, uptodate = self.get_source(environment, name)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 60, in get_source
-    return self._get_source_fast(environment, template)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 89, in _get_source_fast
-    raise TemplateNotFound(template)
-jinja2.exceptions.TemplateNotFound: /emotions.html
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:22] "POST /process HTTP/1.1" 500 -
-INFO:root:Sliders 1
-11
-INFO:root:Sliders 2
-86
-INFO:root:Sliders 3
-21
-INFO:root:Sliders 4
-100
-INFO:root:Sliders 5
-44
-INFO:root:Sliders 6
-19
-ERROR:app:Exception on /process [POST]
-Traceback (most recent call last):
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 162, in data
-    update(slider1,slider2,slider3,slider4,slider5,slider6)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 169, in update
-    return render_template('/emotions.html',Stressed = 2, Calm= slider2,Sad = slider5, Angry = slider6, Optimistic = slider3, Happy = slider1, Anxious = slider4)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 138, in render_template
-    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 930, in get_or_select_template
-    return self.get_template(template_name_or_list, parent, globals)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 883, in get_template
-    return self._load_template(name, self.make_globals(globals))
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/environment.py", line 857, in _load_template
-    template = self.loader.load(self, name, globals)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 115, in load
-    source, filename, uptodate = self.get_source(environment, name)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 60, in get_source
-    return self._get_source_fast(environment, template)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 89, in _get_source_fast
-    raise TemplateNotFound(template)
-jinja2.exceptions.TemplateNotFound: /emotions.html
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:22] "POST /process HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:30:23] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:32:57] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:33:17] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:02] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:03] "GET /static/assets/img/favicon/apple-touch-icon.png HTTP/1.1" 200 -
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:44] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:root:Sliders 1
-24
-INFO:root:Sliders 2
-86
-INFO:root:Sliders 3
-21
-INFO:root:Sliders 4
-100
-INFO:root:Sliders 5
-44
-INFO:root:Sliders 6
-19
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:53] "POST /process HTTP/1.1" 200 -
-INFO:root:Sliders 1
-24
-INFO:root:Sliders 2
-86
-INFO:root:Sliders 3
-21
-INFO:root:Sliders 4
-100
-INFO:root:Sliders 5
-44
-INFO:root:Sliders 6
-19
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:37:53] "POST /process HTTP/1.1" 200 -
-INFO:root:Sliders 1
-100
-INFO:root:Sliders 2
-100
-INFO:root:Sliders 3
-21
-INFO:root:Sliders 4
-100
-INFO:root:Sliders 5
-44
-INFO:root:Sliders 6
-19
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:38:05] "POST /process HTTP/1.1" 200 -
-INFO:root:Sliders 1
-100
-INFO:root:Sliders 2
-100
-INFO:root:Sliders 3
-21
-INFO:root:Sliders 4
-100
-INFO:root:Sliders 5
-44
-INFO:root:Sliders 6
-55
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:38:43] "POST /process HTTP/1.1" 200 -
-INFO:root:Sliders 1
-100
-INFO:root:Sliders 2
-100
-INFO:root:Sliders 3
-21
-INFO:root:Sliders 4
-100
-INFO:root:Sliders 5
-44
-INFO:root:Sliders 6
-55
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:38:48] "POST /process HTTP/1.1" 200 -
-INFO:root:Sliders 1
-100
-INFO:root:Sliders 2
-100
-INFO:root:Sliders 3
-100
-INFO:root:Sliders 4
-100
-INFO:root:Sliders 5
-100
-INFO:root:Sliders 6
-100
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:39:00] "POST /process HTTP/1.1" 200 -
 ERROR:app:Exception on /live.html [GET]
 Traceback (most recent call last):
   File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
@@ -554,64 +13,10 @@ Traceback (most recent call last):
     rv = self.dispatch_request()
   File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 177, in livedata
-    anger =json.loads(total_anger)
-  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
-    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
-TypeError: the JSON object must be str, bytes or bytearray, not list
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:39:59] "GET /live.html HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:39:59] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:01] "GET /resource.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:01] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:01] "GET /static/assets/img/blog/nami-logo-blue.jpg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:01] "GET /static/assets/img/blog/logo.svg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:01] "GET /static/assets/img/blog/Headspace-logo.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:01] "GET /static/assets/img/blog/maxresdefault.jpg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:01] "GET /static/assets/img/blog/BetterHelp.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:03] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:04] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:root:Sliders 1
-49
-INFO:root:Sliders 2
-44
-INFO:root:Sliders 3
-41
-INFO:root:Sliders 4
-38
-INFO:root:Sliders 5
-38
-INFO:root:Sliders 6
-33
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:19] "POST /process HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:40:21] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:13] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:20] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:20] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:22] "GET /resource.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:22] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:22] "GET /static/assets/img/blog/maxresdefault.jpg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:22] "GET /static/assets/img/blog/Headspace-logo.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:22] "GET /static/assets/img/blog/logo.svg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:22] "GET /static/assets/img/favicon/apple-touch-icon.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:22] "GET /static/assets/img/favicon/favicon-16x16.png HTTP/1.1" 200 -
+  File "/home/nicholas/HackTheNorthEast/app/views.py", line 166, in livedata
+    datahandler.log.info(datadict['slider1'])
+KeyError: 'slider1'
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:13:21] "GET /live.html HTTP/1.1" 500 -
 ERROR:app:Exception on /live.html [GET]
 Traceback (most recent call last):
   File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
@@ -626,650 +31,124 @@ Traceback (most recent call last):
     rv = self.dispatch_request()
   File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 177, in livedata
-    anger =json.loads(total_anger)
-  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
-    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
-TypeError: the JSON object must be str, bytes or bytearray, not list
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:25] "GET /live.html HTTP/1.1" 500 -
+  File "/home/nicholas/HackTheNorthEast/app/views.py", line 166, in livedata
+    datahandler.log.info(datadict['slider1'])
+KeyError: 'slider1'
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:13:21] "GET /live.html HTTP/1.1" 500 -
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /live.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:42:57] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /live.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:47:12] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:52:09] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:52:09] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:52:09] "GET /static/assets/img/carousel/consoling.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:52:09] "GET /static/assets/img/carousel/sadKid.jpg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:52:09] "GET /static/assets/img/carousel/stressed.jpg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:52:09] "GET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:52:42] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:52:42] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
 INFO:root:Sliders 1
-50
+60
 INFO:root:Sliders 2
-40
+46
 INFO:root:Sliders 3
-29
-INFO:root:Sliders 4
-34
-INFO:root:Sliders 5
-63
-INFO:root:Sliders 6
-70
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:53:01] "POST /process HTTP/1.1" 200 -
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-ERROR:app:Exception on /emotion.html [GET]
-Traceback (most recent call last):
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 36, in index
-    return render_template(path)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
-    ctx.app.update_template_context(context)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
-    context.update(func())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
-    return dict(current_user=_get_user())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
-    current_app.login_manager._load_user()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
-    raise Exception(
-Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 42, in index
-    return render_template('page-500.html'), 500
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
-    ctx.app.update_template_context(context)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
-    context.update(func())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
-    return dict(current_user=_get_user())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
-    current_app.login_manager._load_user()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
-    raise Exception(
-Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:53:51] "GET /emotion.html HTTP/1.1" 500 -
-ERROR:app:Exception on /favicon.ico [GET]
-Traceback (most recent call last):
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 36, in index
-    return render_template(path)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
-    ctx.app.update_template_context(context)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
-    context.update(func())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
-    return dict(current_user=_get_user())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
-    current_app.login_manager._load_user()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
-    raise Exception(
-Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 42, in index
-    return render_template('page-500.html'), 500
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
-    ctx.app.update_template_context(context)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
-    context.update(func())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
-    return dict(current_user=_get_user())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
-    current_app.login_manager._load_user()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
-    raise Exception(
-Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:53:51] "GET /favicon.ico HTTP/1.1" 500 -
-ERROR:app:Exception on /emotion.html [GET]
-Traceback (most recent call last):
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 36, in index
-    return render_template(path)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
-    ctx.app.update_template_context(context)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
-    context.update(func())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
-    return dict(current_user=_get_user())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
-    current_app.login_manager._load_user()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
-    raise Exception(
-Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 42, in index
-    return render_template('page-500.html'), 500
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
-    ctx.app.update_template_context(context)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
-    context.update(func())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
-    return dict(current_user=_get_user())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
-    current_app.login_manager._load_user()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
-    raise Exception(
-Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:53:53] "GET /emotion.html HTTP/1.1" 500 -
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-ERROR:app:Exception on /emotion.html [GET]
-Traceback (most recent call last):
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 69, in livedata
-    return render_template('/live.html',Stressed = 1, Calm= 2,Sad = 0, Angry = 0, Optimistic = 0, Happy = 0, Anxious = 0 )
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
-    ctx.app.update_template_context(context)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
-    context.update(func())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
-    return dict(current_user=_get_user())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
-    current_app.login_manager._load_user()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
-    raise Exception(
-Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:54:22] "GET /emotion.html HTTP/1.1" 500 -
-ERROR:app:Exception on /emotion.html [GET]
-Traceback (most recent call last):
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 69, in livedata
-    return render_template('/live.html',Stressed = 1, Calm= 2,Sad = 0, Angry = 0, Optimistic = 0, Happy = 0, Anxious = 0 )
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
-    ctx.app.update_template_context(context)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
-    context.update(func())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
-    return dict(current_user=_get_user())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
-    current_app.login_manager._load_user()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
-    raise Exception(
-Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:54:27] "GET /emotion.html HTTP/1.1" 500 -
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-ERROR:app:Exception on /emotion.html [GET]
-Traceback (most recent call last):
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 66, in datas
-    return (render_template('/emotion.html'))
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
-    ctx.app.update_template_context(context)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
-    context.update(func())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
-    return dict(current_user=_get_user())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
-    current_app.login_manager._load_user()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
-    raise Exception(
-Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:04] "GET /emotion.html HTTP/1.1" 500 -
-ERROR:app:Exception on /emotion.html [GET]
-Traceback (most recent call last):
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 66, in datas
-    return (render_template('/emotion.html'))
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
-    ctx.app.update_template_context(context)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
-    context.update(func())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
-    return dict(current_user=_get_user())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
-    current_app.login_manager._load_user()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
-    raise Exception(
-Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:05] "GET /emotion.html HTTP/1.1" 500 -
-ERROR:app:Exception on /resource.html [GET]
-Traceback (most recent call last):
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 36, in index
-    return render_template(path)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
-    ctx.app.update_template_context(context)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
-    context.update(func())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
-    return dict(current_user=_get_user())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
-    current_app.login_manager._load_user()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
-    raise Exception(
-Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 42, in index
-    return render_template('page-500.html'), 500
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
-    ctx.app.update_template_context(context)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
-    context.update(func())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
-    return dict(current_user=_get_user())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
-    current_app.login_manager._load_user()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
-    raise Exception(
-Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:10] "GET /resource.html HTTP/1.1" 500 -
-ERROR:app:Exception on /emotion.html [GET]
-Traceback (most recent call last):
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/home/nicholas/HackTheNorthEast/app/views.py", line 66, in datas
-    return (render_template('/emotion.html'))
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/templating.py", line 136, in render_template
-    ctx.app.update_template_context(context)
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 838, in update_template_context
-    context.update(func())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 379, in _user_context_processor
-    return dict(current_user=_get_user())
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/utils.py", line 346, in _get_user
-    current_app.login_manager._load_user()
-  File "/home/nicholas/.local/lib/python3.8/site-packages/flask_login/login_manager.py", line 302, in _load_user
-    raise Exception(
-Exception: Missing user_loader or request_loader. Refer to http://flask-login.readthedocs.io/#how-it-works for more info.
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:12] "GET /emotion.html HTTP/1.1" 500 -
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /emotion.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:56:47] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
-INFO:root:Sliders 1
-96
-INFO:root:Sliders 2
-57
-INFO:root:Sliders 3
-53
-INFO:root:Sliders 4
-58
-INFO:root:Sliders 5
-56
-INFO:root:Sliders 6
-54
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:57:02] "POST /process HTTP/1.1" 200 -
-INFO:root:Sliders 1
-96
-INFO:root:Sliders 2
-57
-INFO:root:Sliders 3
-53
-INFO:root:Sliders 4
-58
-INFO:root:Sliders 5
-56
-INFO:root:Sliders 6
 43
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:20:39] "[37mPOST /process HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:20:41] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:20:42] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:22:17] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:22:17] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:22:46] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:22:46] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:24:40] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:24:58] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:25:01] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:47:00] "[37mGET /live.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:47:00] "[33mGET /js/index.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:47:01] "[33mGET /js/index.js HTTP/1.1[0m" 404 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:50:02] "[37mGET /live.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:50:02] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:50:46] "[37mGET /live.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:50:47] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:50:59] "[37mGET /resource.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:51:03] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:54:53] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:54:54] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:56:04] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:56:05] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:58:16] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:58:16] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:19:41] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:19:42] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:20:31] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:20:47] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:47:31] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:47:35] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:47:57] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/css/pixel.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/js/pixel.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[36mGET /static/assets/img/favicon/site.webmanifest HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 23:57:45] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:00:54] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:00:54] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:00:54] "[37mGET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:00:54] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:00:58] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:00:58] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:00:59] "[36mGET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:01:27] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:01:27] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:01:30] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:01:30] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:05:34] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:05:34] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:05:34] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:09:06] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:09:06] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:09:06] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:10:16] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:10:16] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:10:16] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:23:47] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:23:47] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:23:47] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:32:35] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:32:35] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:32:35] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:33:59] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:33:59] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:33:59] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:35:52] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:35:52] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:35:52] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:39:27] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:39:27] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:39:28] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:40:51] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:40:51] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:40:51] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:41:56] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:41:56] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:41:56] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:49:34] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:49:34] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:49:34] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:54:34] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:54:34] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:54:34] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:57:54] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:57:54] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 00:57:54] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:04:30] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:04:30] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:04:30] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:14:30] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:14:30] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:14:30] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:23:06] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:23:06] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:23:45] "[37mGET /resource.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:23:45] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:24:50] "[37mGET /live.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:24:50] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:25:02] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:25:02] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:29:06] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:29:06] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:32:26] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:32:26] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:33:35] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:33:35] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:33:35] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:33:41] "[37mGET /live.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:33:41] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:34:46] "[37mGET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:34:56] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:34:56] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:39:24] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:39:24] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 01:39:24] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:03:48] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:03:48] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:03:48] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:08:02] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:08:02] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:08:02] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:12:10] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:12:10] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:12:11] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:12:46] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:12:46] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:12:46] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:14:18] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:14:18] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:14:38] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:14:38] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:31:20] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:31:20] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:31:20] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:36:37] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:36:37] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:36:37] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:37:40] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:37:40] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:37:41] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:40:10] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:40:11] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:40:11] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:41:56] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:41:56] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:41:56] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:43:21] "[37mGET /live.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:43:21] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:43:33] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:43:33] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:43:36] "[37mGET /resource.html HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:43:37] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:43:37] "[36mGET /static/assets/img/blog/nami-logo-blue.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:43:37] "[36mGET /static/assets/img/blog/maxresdefault.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:43:37] "[36mGET /static/assets/img/blog/Headspace-logo.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:43:37] "[36mGET /static/assets/img/blog/logo.svg HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:43:37] "[36mGET /static/assets/img/blog/BetterHelp.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:43:37] "[36mGET /static/assets/img/blog/half-of-us-logo.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:44:05] "[37mGET / HTTP/1.1[0m" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 02:44:05] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
-54
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:57:03] "POST /process HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:57:31] "GET /resource.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:57:31] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:57:42] "GET /live.html HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 07:57:42] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:root:Sliders 4
+72
+INFO:root:Sliders 5
+80
+INFO:root:Sliders 6
+49
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:10] "POST /process HTTP/1.1" 500 -
+INFO:root:60
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:16] "GET /live.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:16] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:23] "GET /resource.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:23] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:23] "GET /static/assets/img/blog/nami-logo-blue.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:23] "GET /static/assets/img/blog/maxresdefault.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:23] "GET /static/assets/img/blog/Headspace-logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:23] "GET /static/assets/img/blog/logo.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:23] "GET /static/assets/img/blog/BetterHelp.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:23] "GET /static/assets/img/blog/half-of-us-logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:26] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:26] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:30] "GET /resource.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:30] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:30] "GET /static/assets/img/blog/nami-logo-blue.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:30] "GET /static/assets/img/blog/BetterHelp.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:30] "GET /static/assets/img/blog/half-of-us-logo.png HTTP/1.1" 304 -
+INFO:root:60
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:33] "GET /live.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:33] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:root:60
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /live.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:14:58] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:18:20] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:18:20] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:root:Sliders 1
+91
+INFO:root:Sliders 2
+86
+INFO:root:Sliders 3
+78
+INFO:root:Sliders 4
+82
+INFO:root:Sliders 5
+77
+INFO:root:Sliders 6
+100
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nicholas/.local/lib/python3.8/site-packages/flask/app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:38] "POST /process HTTP/1.1" 500 -
+INFO:root:91
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:44] "GET /live.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:44] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:root:91
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /live.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/css/pixel.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/vendor/popper.js/dist/umd/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/vendor/nouislider/distribute/nouislider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/vendor/onscreen/dist/on-screen.umd.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/vendor/headroom.js/dist/headroom.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/vendor/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/vendor/jarallax/dist/jarallax.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/vendor/vivus/dist/vivus.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/js/pixel.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:22:53] "GET /static/assets/img/brand/FeeliesLogo1.svg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:23:01] "GET /emotion.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 10:23:01] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

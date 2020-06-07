@@ -16,7 +16,7 @@ from jinja2 import TemplateNotFound
 import json
 
 # App modules
-from app import app, lm, db, bc
+from app import app, lm,  bc
 #from app.models import User
 from app.forms import LoginForm, RegisterForm
 
@@ -24,6 +24,7 @@ import app.UserDatautil as datahandler
 import yaml
 
 
+datadict={}
 @lm.user_loader
 def load_user(user_id):
     return User.query.get(int(user_id))
@@ -150,9 +151,16 @@ def data():
     slider4 = request.form.get("output3")
     slider5 = request.form.get("output4")
     slider6 = request.form.get("output5")
-    slider7 = request.form.get("output6")
+    sliderdatadict7 = request.form.get("output6")
     datahandler.getUserIntput(slider1,slider2,slider3,slider4,slider5,slider6)
-    return(slider3)
+    
+    datadict['slider1'] = int(slider1*2/6)
+    datadict['slider2'] = int(slider2*2/6)
+    datadict['slider3'] = int(slider3*2/6)
+    datadict['slider4'] = int(slider4*2/6)
+    datadict['slider5'] = int(slider5*2/6)
+    datadict['slider6'] = int(slider6*2/6)
+    
 @app.route('/emotions.html')
 
     
@@ -161,5 +169,5 @@ def data():
     
 @app.route('/live.html')
 def livedata():
-    
-    return render_template('/live.html',Stressed = 1, Calm= 2,Sad = 0, Angry = 0, Optimistic = 0, Happy = 0, Anxious = 0 )
+    datahandler.log.info(datadict['slider1'])
+    return render_template('/live.html',Happy = datadict['slider1'], Calm= datadict['slider2'],Sad = datadict['slider5'], Angry = datadict['slider6'], Optimistic = datadict['slider3'], Anxious = datadict['slider4'] )
