@@ -177,7 +177,7 @@ slider6.oninput = function Sad() {
   output6.innerHTML = this.value; 
 }
 
-function update(output,output1,output2,output3,output4,output5,output6,slider,slider1,slider2,slider3,slider4,slider5,slider6){
+/*function update(output,output1,output2,output3,output4,output5,output6,slider,slider1,slider2,slider3,slider4,slider5,slider6){
 $.ajax({
             method: 'post',
             url: '/process',
@@ -195,7 +195,7 @@ $.ajax({
        })
        return 0
 }
-
+*/
 var ctx = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
@@ -203,9 +203,10 @@ var chart = new Chart(ctx, {
 
     // The data for our dataset
     data: {
-        labels: ['Happy', 'Calm', 'Optimistic', 'Anxious', 'Sad', 'Stressed', 'Angry'],
+        labels: ['Happy', 'Calm', 'Optimistic', 'Anxious', 'Sad', 'Stressed', 'Angry', 'CLICK TO UPDATE'],
         datasets: [{
             label: 'Emotions',
+            data: [output.innerHTML, output1.innerHTML, output2.innerHTML, output3.innerHTML, output4.innerHTML, output5.innerHTML, output6.innerHTML],
             backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(54, 162, 235, 0.2)',
@@ -224,7 +225,6 @@ var chart = new Chart(ctx, {
                     'rgba(255, 83, 64, 1)',
                     'rgba(140, 255, 102, 1)'
                 ],
-            data: [output.innerHTML, output1.innerHTML, output2.innerHTML, output3.innerHTML, output4.innerHTML, output5.innerHTML, output6.innerHTML],
         }
       ]
 
@@ -234,21 +234,10 @@ var chart = new Chart(ctx, {
     options: {}
 });
 
-update: function updateChart(reset){
+function updateChart(Chart){
   chart.data.datasets[0].data = [output.innerHTML, output1.innerHTML, output2.innerHTML, output3.innerHTML, output4.innerHTML, output5.innerHTML, output6.innerHTML];
-  Chart.update({
-    duration: 800,
-    easing: 'easeOutBounce'
-});
-Chart.render({
-    duration: 800,
-    lazy: false,
-    easing: 'easeOutBounce'
-});
+  Chart.update();
 }
-
-
-
 </script>
 
 {% endblock javascripts %}
