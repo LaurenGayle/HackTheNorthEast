@@ -46402,3 +46402,23 @@ INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:54:06] "GET /resource.html HTTP/1.1"
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:54:07] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:54:10] "GET /live.html HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 21:54:10] "GET /static/assets/img/brand/dark.svg HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:07:56] "[37mGET /resource.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:08:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:09:09] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:root:Sliders 1
+62
+INFO:root:Sliders 2
+34
+INFO:root:Sliders 3
+40
+INFO:root:Sliders 4
+57
+INFO:root:Sliders 5
+51
+INFO:root:Sliders 6
+49
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:09:21] "[37mPOST /process HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:09:25] "[37mGET /resource.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:09:29] "[37mGET /live.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2020 22:09:46] "[37mGET / HTTP/1.1[0m" 200 -
