@@ -154,12 +154,12 @@ def data():
     sliderdatadict7 = request.form.get("output6")
     datahandler.getUserIntput(slider1,slider2,slider3,slider4,slider5,slider6)
     
-    datadict['slider1'] = int(slider1*2/6)
-    datadict['slider2'] = int(slider2*2/6)
-    datadict['slider3'] = int(slider3*2/6)
-    datadict['slider4'] = int(slider4*2/6)
-    datadict['slider5'] = int(slider5*2/6)
-    datadict['slider6'] = int(slider6*2/6)
+    datadict['slider1'] = slider1
+    datadict['slider2'] = slider2
+    datadict['slider3'] = slider3
+    datadict['slider4'] = slider4
+    datadict['slider5'] = slider5
+    datadict['slider6'] = slider6
     
 @app.route('/emotions.html')
 
@@ -169,5 +169,5 @@ def data():
     
 @app.route('/live.html')
 def livedata():
-    datahandler.log.info(datadict['slider1'])
-    return render_template('/live.html',Happy = datadict['slider1'], Calm= datadict['slider2'],Sad = datadict['slider5'], Angry = datadict['slider6'], Optimistic = datadict['slider3'], Anxious = datadict['slider4'] )
+    
+    return render_template('/live.html',Happy = datadict['slider1'], Calm = datadict['slider2'], Optimistic = datadict['slider3'], Anxious = datadict['slider4'], Sad = datadict['slider5'], Stressed = datadict['slider6'])

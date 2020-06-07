@@ -43,13 +43,13 @@ var e = '{{ Optimistic }}'
 var f = '{{ Stressed }}'
 var g = '{{ Anxious }}'
 
-var Happy = parseInt(a);
-var Calm = parseInt(b);
-var Sad = parseInt(c);
-var Angry = parseInt(d);
-var Optimistic = parseInt(e);
-var Stressed = parseInt(f);
-var Anxious = parseInt(g);
+var Happy = parseInt(a)*5/6;
+var Calm = parseInt(b)*5/6;
+var Sad = parseInt(c)*5/6;
+var Angry = parseInt(d)*5/6;
+var Optimistic = parseInt(e)*5/6;
+var Stressed = parseInt(f)*5/6;
+var Anxious = parseInt(g)*5/6;
 
     var ctx = document.getElementById('myChart');
     var myChart = new Chart(ctx, {
