@@ -13,7 +13,7 @@ from flask import render_template, request, url_for, redirect, send_from_directo
 from flask_login import login_user, logout_user, current_user, login_required
 from werkzeug.exceptions import HTTPException, NotFound, abort
 from jinja2 import TemplateNotFound
-
+import json
 
 # App modules
 from app import app, lm, db, bc
@@ -21,8 +21,7 @@ from app import app, lm, db, bc
 from app.forms import LoginForm, RegisterForm
 
 import app.UserDatautil as datahandler
-
-# provide login manager with load_user callback
+import yaml
 
 
 @lm.user_loader
@@ -43,10 +42,7 @@ def logout():
 @app.route('/register.html', methods=['GET', 'POST'])
 def register():
 
-    # declare the Registration Form
-    form = RegisterForm(request.form)
-
-    msg = None
+    # declare tdb = TinyDB('db.json')
 
     if request.method == 'GET':
 
@@ -111,12 +107,7 @@ def login():
 
         if user:
             
-            #if bc.check_password_hash(user.password, password):
-            if user.password == password:
-                login_user(user)
-                getUsersStats(user)
-                return redirect(url_for('index'))
-            else:
+            #if bc.check_passwo
                 msg = "Wrong password. Please try again."
         else:
             msg = "Unknown user"
@@ -162,3 +153,13 @@ def data():
     slider7 = request.form.get("output6")
     datahandler.getUserIntput(slider1,slider2,slider3,slider4,slider5,slider6)
     return(slider3)
+@app.route('/emotions.html')
+
+    
+    
+    
+    
+@app.route('/live.html')
+def livedata():
+    
+    return render_template('/live.html',Stressed = 1, Calm= 2,Sad = 0, Angry = 0, Optimistic = 0, Happy = 0, Anxious = 0 )

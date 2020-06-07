@@ -103,7 +103,7 @@
       </div> 
 
       <div>
-        <button type="button" class="btn btn-primary" onclick="updateChart()" onclick="update(output,output1,output2,output3,output4,output5,output6,slider,slider1,slider2,slider3,slider4,slider5,slider6)">Save</button>
+        <button type="button" class="btn btn-primary" onclick="updateChart()">Save</button>
       </div>
 
     </div>
@@ -116,15 +116,6 @@
 {% block javascripts %}
 
 <script>
-var Happy = '{{ Happy }}'
-var Calm = '{{ Calm }}'
-var Sad = '{{ Sad }}'
-var Angry = '{{ Angry }}'
-var Optimistic = '{{ Optimistic }}'
-var Stressed = '{{ Stressed }}'
-var Anxious = '{{ Anxious }}'
-
-
 var slider = document.getElementById("myRange");
 var slider1 = document.getElementById("myRange1");
 var slider2 = document.getElementById("myRange2");
@@ -177,25 +168,8 @@ slider6.oninput = function Sad() {
   output6.innerHTML = this.value; 
 }
 
-/*function update(output,output1,output2,output3,output4,output5,output6,slider,slider1,slider2,slider3,slider4,slider5,slider6){
-$.ajax({
-            method: 'post',
-            url: '/process',
-              type:'POST',
-               traditional:true,
-                    data:{
-                        output:slider.value,
-                        output1:slider1.value,
-                        output2:slider2.value,
-                        output3:slider3.value,
-                        output4:slider4.value,
-                        output5:slider5.value,
-                        output6:slider6.value
-                            }
-       })
-       return 0
-}
-*/
+
+
 var ctx = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
@@ -236,7 +210,23 @@ var chart = new Chart(ctx, {
 
 function updateChart(Chart){
   chart.data.datasets[0].data = [output.innerHTML, output1.innerHTML, output2.innerHTML, output3.innerHTML, output4.innerHTML, output5.innerHTML, output6.innerHTML];
+  $.ajax({
+            method: 'post',
+            url: '/process',
+              type:'POST',
+               traditional:true,
+                    data:{
+                        output:slider.value,
+                        output1:slider1.value,
+                        output2:slider2.value,
+                        output3:slider3.value,
+                        output4:slider4.value,
+                        output5:slider5.value,
+                        output6:slider6.value
+                            }
+       })
   Chart.update();
+ 
 }
 </script>
 

@@ -27,12 +27,11 @@ def getUserIntput(slider1data, slider2data, slider3data, slider4data, slider5dat
     db.insert({'type': 'anger', 'count': slider6data})
     db.insert({'type': 'happy', 'count': slider1data})
     db.insert({'type': 'sad', 'count': slider5data})
-   
-
+    
 def queryData():
     Emotions = Query()
     
     total_anger = db.search(Emotions.type == 'anger')
     total_happiness = db.search(Emotions.type == 'happy')
     
-    
+    log.info("anger"+total_anger)
