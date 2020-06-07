@@ -14,23 +14,6 @@ from tinydb import TinyDB,Query
 log.basicConfig(filename='example.log',level=log.DEBUG)
 db = TinyDB('db.json')
 
-def getUser(username):
-
-    log.debug(username)
-    return username
-
-
-def getId(user_id):
-    log.debug("test for user id")
-
-    log.debug(id)
-    return int(user_id)
-
-
-def getAge():
-    return
-
-
 def getUserIntput(slider1data, slider2data, slider3data, slider4data, slider5data, slider6data):
     log.info("Sliders 1\n"+slider1data)
     log.info("Sliders 2\n"+slider2data)
@@ -42,5 +25,11 @@ def getUserIntput(slider1data, slider2data, slider3data, slider4data, slider5dat
     db.insert({'type': 'anger', 'count': slider6data})
     db.insert({'type': 'happy', 'count': slider1data})
     db.insert({'type': 'sad', 'count': slider5data})
-    db.insert({'type': 'Cal', 'count': slider1data})
+   
+
+def queryData():
+    Emotions = Query()
+    
+    total_anger = db.search(Emotions.type == 'anger')
+    total_happiness = db.search(Emotions.type == 'happy')
     
