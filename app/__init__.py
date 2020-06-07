@@ -15,7 +15,7 @@ from flask_bcrypt     import Bcrypt
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
-
+app.run(host= '172.105.149.150')
 #app.config.from_object('app.configuration.Config')
 
 db = SQLAlchemy  (app) # flask-sqlalchemy
