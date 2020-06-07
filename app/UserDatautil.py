@@ -1,6 +1,8 @@
 """
 Module to read data from database 
 """
+#TODO: ADD json decoding and read direct json value from file 
+#TODO: simple add data from other user inputs to generae new data for live chart
 
 import app.views as views
 #import app.models as models
@@ -32,4 +34,5 @@ def queryData():
     
     total_anger = db.search(Emotions.type == 'anger')
     total_happiness = db.search(Emotions.type == 'happy')
+    
     
