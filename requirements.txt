@@ -7,4 +7,4 @@ flask_bcrypt
 email_validator
 gunicorn
 tinydb
-yaml
+pyyaml
