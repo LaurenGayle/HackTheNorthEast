@@ -63,7 +63,13 @@
 
     </div>
 </section>
-Stressedspan></p>
+
+<div class="section section-lg pb-5">
+    <div class="container">
+      <h1>Slide each value to match how you feel:</h1>
+      <div class="slidecontainer">
+        <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+        <p>Happy: <span id="demo"></span></p>
       </div> 
 
       <div class="slidecontainer">
@@ -118,6 +124,7 @@ var Optimistic = '{{ Optimistic }}'
 var Stressed = '{{ Stressed }}'
 var Anxious = '{{ Anxious }}'
 
+
 var slider = document.getElementById("myRange");
 var slider1 = document.getElementById("myRange1");
 var slider2 = document.getElementById("myRange2");
@@ -165,6 +172,17 @@ slider4.oninput = function Sad() {
   output4.innerHTML = this.value;
   
 }
+
+slider5.oninput = function Anxious() {
+  output5.innerHTML = this.value;
+  
+}
+
+slider6.oninput = function Sad() {
+  output6.innerHTML = this.value;
+  
+}
+
 
 
 function update(output,output1,output2,output3,output4,output5,output6,slider,slider1,slider2,slider3,slider4,slider5,slider6){
