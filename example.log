@@ -930,3 +930,80 @@ INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:05:55] "GET /static/assets/img/carou
 INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:05:55] "GET /static/assets/img/carousel/happypeople.jpg HTTP/1.1" 304 -
 INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:05:55] "GET /static/assets/img/carousel/sadKid.jpg HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:05:56] "GET /static/assets/img/carousel/stressed.jpg HTTP/1.1" 304 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:21:29] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:21:29] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:21:29] "[37mGET /static/assets/img/favicon/favicon-32x32.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:21:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:21:33] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:21:33] "[37mGET /static/assets/img/carousel/Consoling.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:21:38] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:21:38] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:21:44] "[37mGET /resource.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:21:44] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /live.html [GET]
+Traceback (most recent call last):
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\laure\Desktop\HackTheNorthEast\app\views.py", line 173, in livedata
+    return render_template('/live.html',Happy = datadict['slider1'], Calm = datadict['slider2'], Optimistic = datadict['slider3'], Anxious = datadict['slider4'], Sad = datadict['slider5'], Stressed = datadict['slider6'])
+KeyError: 'slider1'
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:21:47] "[35m[1mGET /live.html HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /live.html [GET]
+Traceback (most recent call last):
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\laure\Desktop\HackTheNorthEast\app\views.py", line 173, in livedata
+    return render_template('/live.html',Happy = datadict['slider1'], Calm = datadict['slider2'], Optimistic = datadict['slider3'], Anxious = datadict['slider4'], Sad = datadict['slider5'], Stressed = datadict['slider6'])
+KeyError: 'slider1'
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:21:57] "[35m[1mGET /live.html HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:22:12] "[37mGET /emotion.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:22:12] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:root:Sliders 1
+69
+INFO:root:Sliders 2
+61
+INFO:root:Sliders 3
+72
+INFO:root:Sliders 4
+69
+INFO:root:Sliders 5
+69
+INFO:root:Sliders 6
+69
+ERROR:app:Exception on /process [POST]
+Traceback (most recent call last):
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "c:\users\laure\desktop\hackthenortheast\venv\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:22:21] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:22:31] "[37mGET /live.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:22:32] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:22:38] "[37mGET /resource.html HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2020 11:22:38] "[33mGET /static/assets/img/brand/dark.svg HTTP/1.1[0m" 404 -
